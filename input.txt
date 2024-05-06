@@ -1,0 +1,7 @@
+3 2
+Squirtle 10 15
+15 agua
+Vulpix 15 15 15 fogo
+Onix 5 20 20 pedra
+Golem 20 5 10 pedra
+Charmander 20 15 12 fogo

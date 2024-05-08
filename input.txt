@@ -1,6 +1,5 @@
 3 2
-Squirtle 10 15
-15 agua
+Squirtle 10 15 15 agua
 Vulpix 15 15 15 fogo
 Onix 5 20 20 pedra
 Golem 20 5 10 pedra

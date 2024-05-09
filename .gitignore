@@ -51,6 +51,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Log files
+logs/*
+
+
 # VS Code files for those working on multiple tools
 .vscode/*
 .vscode/settings.json

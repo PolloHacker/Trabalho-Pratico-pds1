@@ -2,7 +2,7 @@
 
 ## Description
 
-The project is a practical assignment for the course "PDS1". 
+The project is a practical assignment for the course "PDS1".
 
 It's a Pokemon battle simulator written in C. The user can specify a file containing the data of the Pokemon teams, and the program will simulate a battle between them. The program will also log all the events of the battle in a file.
 

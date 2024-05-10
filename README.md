@@ -8,7 +8,7 @@ It's a Pokemon battle simulator written in C. The user can specify a file contai
 
 The files containing the data of the teams should have the following format:
 
-```json
+```C
 3 2 // number of pokemons in each team
 Squirtle 10 15 15 agua // the pokemon stats: name atk def hp type
 Vulpix 15 15 15 fogo // repeat for each pokemon

@@ -81,8 +81,6 @@ char * le_arquivo(char *nome_arq) {
         if (data == NULL) exit(100);
         strcat(data, line);
     }
-
-    printf("%s\n", data);
     return data;
 }
 
@@ -162,9 +160,9 @@ TJogador * cria_jogadores(char *data) {
 
 
 int classifica_pokemon(const char *tipo) {
-    const char *tipos[] = {"fogo", "pedra", "eletrico", "agua"}; // TODO: add type 'gelo'
+    const char *tipos[] = {"eletrico", "agua", "fogo", "gelo", "pedra"}; // TODO: add type 'gelo'
 
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 5; i++) {
         if (strcmp(tipo, tipos[i]) == 0)
             return i;
     }
@@ -285,7 +283,6 @@ int main(int argc, char *argv[]) {
     char *data;
     
     cria_log();
-
     if (argc == 2) {
         printf("Usando arquivo %s\n", argv[1]);
         data = le_arquivo(argv[1]);

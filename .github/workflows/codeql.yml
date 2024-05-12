@@ -79,7 +79,7 @@ jobs:
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
     - if: matrix.build-mode == 'manual'
       run: |
-        gcc -W -Wall -Werror src/main.c src/file_utils.c src/pok_utils.c
+        gcc -W -Wall -Werror src/main.c src/file_utils.c src/pok_utils.c -o main
         exit 1
 
     - name: Perform CodeQL Analysis

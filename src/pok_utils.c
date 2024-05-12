@@ -1,3 +1,24 @@
+/**
+ * @file pok_utils.c
+ * @author Isaac Reyes (isaac.reyalves@gmail.com)
+ * 
+ * @brief Este arquivo contém as funções definidas em `pok_utils.h`:
+ *  - cria_jogadores(): Cria uma lista de jogadores a partir de uma cadeia de caracteres.
+ *  - classifica_pokemon(): Classifica um pokemon com base no seu tipo.
+ *  - mais_forte(): Determina se o tipo defensor é mais forte do que o tipo atacante.
+ *  - mais_fraco(): Determina se o tipo defensor é mais fraco do que o tipo atacante.
+ *  - ataca(): Realiza um ataque entre dois jogadores.
+ *  - checa_sobreviventes(): Checa os pokemons sobreviventes após o fim do jogo.
+ *  - checa_derrotados(): Verifica os pokemons derrotados dos jogadores e registra em um arquivo.
+ * 
+ * @bug Nenhum bug encontrado.
+ * @version 1.1.3
+ * @date 2024-05-10
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,14 +28,13 @@
 
 
 /**
- * @brief Cria uma lista de jogadores a partir de uma string de dados.
- *
- * Recebe uma string de dados contendo as informações dos jogadores e seus pokémons.
- * Cria uma lista de jogadores com base nas informações fornecidas na string de dados.
- * Cada jogador é representado por uma estrutura TJogador, que contém o número de pokémons do jogador,
- * o índice do pokémon atual, e um array de estruturas TPokemon, que contém as informações de cada pokémon.
+ * @author Isaac Reyes
+ * 
+ * @brief Cria uma lista de jogadores a partir de uma cadeia de caracteres com os dados.
+ * Cada jogador é representado por uma estrutura TJogador.
  * 
  * @param data A string de dados contendo as informações dos jogadores e seus pokémons.
+ * 
  * @return Um ponteiro para a lista de jogadores criada.
  */
 TJogador * cria_jogadores(char *data) {
@@ -68,10 +88,8 @@ TJogador * cria_jogadores(char *data) {
 /**
  * @brief Classifica um Pokémon com base no seu tipo.
  * 
- * Recebe uma string representando o tipo de um Pokémon e retorna um valor inteiro representando sua classificação.
- * A classificação é determinada comparando o tipo fornecido com uma lista predefinida de tipos.
- * 
  * @param tipo O tipo do Pokémon.
+ * 
  * @return Um valor inteiro representando a classificação do Pokémon.
  *         - 0: Tipo Elétrico
  *         - 1: Tipo Água
@@ -92,15 +110,12 @@ int classifica_pokemon(const char *tipo) {
 
 
 /**
- * @brief Determina se um tipo de ataque dado é mais forte do que um tipo de defesa dado.
+ * @brief Determina se um tipo atacante dado é mais forte do que um tipo defensor dado.
  *
- * Compara a classificação do tipo de ataque e o tipo de defesa
- * para determinar se o tipo de ataque é mais forte do que o tipo de defesa. Retorna 1 se
- * o tipo de ataque for um nível mais alto do que o tipo de defesa. Caso contrário, retorna 0.
- *
- * @param tipo_atk O tipo de ataque.
- * @param tipo_def O tipo de defesa.
- * @return 1 se o tipo de ataque for mais forte do que o tipo de defesa, 0 caso contrário.
+ * @param tipo_atk O tipo atacante.
+ * @param tipo_def O tipo defensor.
+ * 
+ * @return 1 se o tipo atacante for mais forte do que o tipo defensor, 0 caso contrário.
  */
 int mais_forte(char *tipo_atk, char * tipo_def) {
     
@@ -114,12 +129,9 @@ int mais_forte(char *tipo_atk, char * tipo_def) {
 /**
  * @brief Determina se o tipo defensor é mais fraco do que o tipo atacante.
  *
- * Compara a classificação do tipo atacante e do tipo defensor
- * para determinar se o tipo defensor é mais fraco do que o tipo atacante. A classificação
- * de cada tipo é obtida usando a função `classifica_pokemon`.
- *
  * @param tipo_atk O tipo atacante.
  * @param tipo_def O tipo defensor.
+ * 
  * @return 1 se o tipo defensor for mais fraco do que o tipo atacante, 0 caso contrário.
  */
 int mais_fraco(char *tipo_atk, char * tipo_def) {
@@ -132,13 +144,10 @@ int mais_fraco(char *tipo_atk, char * tipo_def) {
 
 
 /**
- * @brief Função responsável por realizar um ataque entre dois jogadores.
- * 
- * Realiza um ataque entre dois jogadores, onde o jogador atacante é especificado pelo índice fornecido.
+ * @brief Realiza um ataque entre dois jogadores.
  * 
  * @param jogadores Array contendo os jogadores.
  * @param atacante Índice do jogador atacante.
- * 
  */
 void ataca(TJogador *jogadores, int atacante) {
     int defensor = atacante == 0 ? 1 : 0;
@@ -184,10 +193,6 @@ void ataca(TJogador *jogadores, int atacante) {
 /**
  * @brief Checa os pokémons sobreviventes após o fim do jogo.
  * 
- * Esta função recebe um array de jogadores e o índice do jogador vencedor.
- * Ela grava uma mensagem no arquivo nome_arquivo indicando o início da checagem dos sobreviventes.
- * Em seguida, imprime na tela os nomes dos pokémons sobreviventes do jogador vencedor.
- * 
  * @param jogadores O array de jogadores.
  * @param vencedor O índice do jogador vencedor.
  */
@@ -204,9 +209,6 @@ void checa_sobreviventes(TJogador *jogadores, int vencedor) {
 
 /**
  * @brief Verifica os pokémons derrotados dos jogadores e registra em um arquivo.
- * 
- * Esta função percorre os pokémons dos jogadores e verifica se algum deles foi derrotado.
- * Em seguida, registra a informação no arquivo especificado.
  * 
  * @param jogadores Um array de estruturas do tipo TJogador contendo os jogadores e seus pokémons.
  */

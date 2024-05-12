@@ -55,6 +55,10 @@ dkms.conf
 logs/*
 
 
+# Doxygen files
+html/*
+latex/*
+
 # VS Code files for those working on multiple tools
 .vscode/*
 .vscode/settings.json

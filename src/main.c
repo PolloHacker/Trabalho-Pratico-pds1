@@ -1,12 +1,33 @@
+/**
+ * @file main.c
+ * @author Isaac Reyes (isaac.reyalves@gmail.com)
+ * 
+ * @brief Este é o arquivo principal do simulador e contém as funções:
+ *  - inicia_jogo(): inicia as rodadas da simulação
+ *  - main(): cria os jogadores e inicia o jogo
+ * 
+ * @version 2.0.3
+ * @bug Nenhum bug encontrado.
+ * @date 2024-05-06
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "utils/definitions.h"
-#include "utils/file_utils.h"
-#include "utils/pok_utils.h"
+#include "definitions.h"
+#include "file_utils.h"
+#include "pok_utils.h"
 
 
+/**
+ * @brief Inicia as rodadas da simulação e determina o resultado da partida.
+ * 
+ * @param jogadores 
+ */
 void inicia_jogo(TJogador *jogadores) {
     grava_arquivo(nome_arquivo, "Jogo iniciado.");
     int atacante = 0;
@@ -30,7 +51,13 @@ void inicia_jogo(TJogador *jogadores) {
     system("pause");
 }
 
-
+/**
+ * @brief Inicializa os jogadores e inicia o jogo.
+ * 
+ * @param argc 
+ * @param argv 
+ * @return int 
+ */
 int main(int argc, char *argv[]) {
     TJogador *jogadores;
     char *data;
@@ -41,7 +68,7 @@ int main(int argc, char *argv[]) {
         data = le_arquivo(argv[1]);
     } else {
         grava_arquivo(nome_arquivo, "[+]-----------------------------[+]\nNenhum arquivo informado.\nUsando o arquivo 'input.txt'.\nUso: main.exe <arquivo>.txt\n[+]-----------------------------[+]\n");
-        data = le_arquivo("input.txt");
+        data = le_arquivo("./input/input.txt");
     }
     if (data == NULL) {
         grava_arquivo(nome_arquivo, "[!] Erro ao ler arquivo.");

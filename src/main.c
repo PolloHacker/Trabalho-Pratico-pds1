@@ -2,7 +2,8 @@
  * @file main.c
  * @author Isaac Reyes (isaac.reyalves@gmail.com)
  * 
- * @brief Este é o arquivo principal do simulador e contém as funções:
+ * @brief Este é o arquivo principal do simulador.
+ * Este arquivo contém as funções:
  *  - inicia_jogo(): inicia as rodadas da simulação
  *  - main(): cria os jogadores e inicia o jogo
  * 

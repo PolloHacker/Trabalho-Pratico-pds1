@@ -1,41 +1,45 @@
 # Trabalho Pratico pds1
 
-## Description
+## Descrição
 
-The project is a practical assignment for the course "PDS1".
+Este projeto é um trabalho prático da disciplina de PDS1 (Programação de Sistemas 1) do curso de Ciência de Dados da Universidade Federal de Minas Gerais.
 
-It's a Pokemon battle simulator written in C. The user can specify a file containing the data of the Pokemon teams, and the program will simulate a battle between them. The program will also log all the events of the battle in a file.
+É um simulador de batalha de Pokemons escrito em C. O usuário pode especificar um arquivo contendo os dados das equipes e o programa irá simular uma batalha entre eles. Este também registrará todos os eventos da batalha em um arquivo.
 
-The files containing the data of the teams should have the following format:
+## Instalação e uso
 
-```C
-3 2 // number of pokemons in each team
-Squirtle 10 15 15 agua // the pokemon stats: name atk def hp type
-Vulpix 15 15 15 fogo // repeat for each pokemon
-Onix 5 20 20 pedra
-Golem 20 5 10 pedra
-Charmander 20 15 12 fogo
-```
+Para usar este projeto, siga os passos abaixo:
 
-The program will output the results of the battle and log all the events in a file called `log_DD-MM-YYYY_hh-mm-ss.txt`, with the date and time of the execution.
+1. Clone o repositório para sua máquina local.
 
-The user can specify the input files as command-line arguments when running the program. If no input files are specified, the program will default to using `input.txt` and `input_large.txt` as the files containing the data of the teams.
+    ```bash
+    git clone https://github.com/PolloHacker/Trabalho-Pratico-pds1.git
+    ```
 
-The program will also output the results of the battle to the console.
+2. Compile o código usando o seu compilador preferido.
 
-This project is part of the programming discipline "PDS1" of the course "Ciência de Dados" of the Federal University of Minas Gerais.
+    ```bash
+    gcc -W -Wall -Werror main.c file_utils.c pok_utils.c -o main
+    ```
 
-## Installation
+3. Execute o programa gerado.
 
-To install this project, follow these steps:
+    ```bash
+    ./main <input_file>.txt
+    ```
 
-1. Clone the repository to your local machine.
-2. Compile the code using your preferred C compiler.
+    Se nenhum arquivo de entrada for especificado, o programa irá usar o arquivo `input.txt` como a entrada de dados.
+    A estrutura do arquivo de entrada deve ser a seguinte:
 
-## Usage
+    ```C
+    3 2 // número de pokemons em cada equipe
+    Squirtle 10 15 15 agua // os status de cada pokemon: nome ataque defesa tipo
+    Vulpix 15 15 15 fogo // repita para cada pokemon
+    Onix 5 20 20 pedra
+    Golem 20 5 10 pedra
+    Charmander 20 15 12 fogo
+    ```
 
-To run the game, execute the compiled binary. You can specify the input file as a command-line argument. If no input file is specified, the game will default to using `input.txt`.
+## Licensa
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Este projeto está licenciado sob [MIT License](LICENSE).

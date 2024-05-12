@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é um trabalho prático da disciplina de PDS1 (Programação de Sistemas 1) do curso de Ciência de Dados da Universidade Federal de Minas Gerais.
+Este projeto é um trabalho prático da disciplina de PDS1 (Programação E Desenvolvimento de Software 1) do curso de Ciência de Dados da Universidade Federal de Minas Gerais.
 
 É um simulador de batalha de Pokemons escrito em C. O usuário pode especificar um arquivo contendo os dados das equipes e o programa irá simular uma batalha entre eles. Este também registrará todos os eventos da batalha em um arquivo.
 

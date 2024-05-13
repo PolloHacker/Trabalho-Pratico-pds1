@@ -55,6 +55,6 @@ typedef struct jogador {
 
 } TJogador;
 
-char nome_arquivo[36], fstring[300];
+extern char nome_arquivo[36], fstring[300];
 
 #endif

@@ -59,7 +59,6 @@ build/*
 
 # Doxygen files
 doxy/*
-html/*
 latex/*
 
 # VS Code files for those working on multiple tools

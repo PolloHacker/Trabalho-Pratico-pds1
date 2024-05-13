@@ -1,0 +1,578 @@
+<!-- HTML header for doxygen 1.10.0-->
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="generator" content="Doxygen 1.10.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trabalho Prático - PDS1: Referência do Arquivo src/pok_utils.c</title>
+  <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../../jquery.js"></script>
+  <script type="text/javascript" src="../../dynsections.js"></script>
+  <script type="text/javascript" src="../../clipboard.js"></script>
+  <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+  <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+  <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+  <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeParagraphLink.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+  </script>
+</head>
+<body>
+    <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr id="projectrow">
+              <td id="projectalign">
+                <div id="projectname">Trabalho Prático - PDS1
+                </div>
+                <div id="projectbrief">Este projeto é um simulador de batalha</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d1/dbe/pok__utils_8c.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo pok_utils.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Este arquivo contém as implementações das funções definidas em <code><a class="el" href="../../d9/daf/pok__utils_8h.html" title="Este arquivo define as funções usadas na manipulação de pokemons.">pok_utils.h</a></code>:  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc2/definitions_8h_source.html">definitions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d9d/file__utils_8h_source.html">file_utils.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para pok_utils.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d44/pok__utils_8c__incl.png" border="0" usemap="#asrc_2pok__utils_8c" alt=""/></div>
+<map name="asrc_2pok__utils_8c" id="asrc_2pok__utils_8c">
+<area shape="rect" title="Este arquivo contém as implementações das funções definidas em pok_utils.h:" alt="" coords="156,5,262,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,66,107"/>
+<area shape="poly" title=" " alt="" coords="180,35,81,76,79,71,178,30"/>
+<area shape="rect" title=" " alt="" coords="89,80,153,107"/>
+<area shape="poly" title=" " alt="" coords="195,35,149,72,146,68,192,30"/>
+<area shape="rect" title=" " alt="" coords="177,80,241,107"/>
+<area shape="poly" title=" " alt="" coords="212,33,212,64,206,64,206,33"/>
+<area shape="rect" href="../../d6/dc2/definitions_8h.html" title="Este arquivo contém as definições das estruturas e variáveis globais usadas na simulação." alt="" coords="265,80,355,107"/>
+<area shape="poly" title=" " alt="" coords="228,30,282,68,278,73,225,35"/>
+<area shape="rect" href="../../d1/d9d/file__utils_8h.html" title="Este arquivo define as funções usadas na gravação e leitura de arquivos." alt="" coords="380,80,459,107"/>
+<area shape="poly" title=" " alt="" coords="246,30,369,72,367,77,245,35"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:adf8d49191a61729cd58c809b5296565d" id="r_adf8d49191a61729cd58c809b5296565d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf8d49191a61729cd58c809b5296565d">cria_jogadores</a> (char *data)</td></tr>
+<tr class="memdesc:adf8d49191a61729cd58c809b5296565d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cria uma lista de jogadores a partir de uma cadeia de caracteres.  <br /></td></tr>
+<tr class="separator:adf8d49191a61729cd58c809b5296565d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e25c3c8c02354631c5724c052c873d" id="r_ab9e25c3c8c02354631c5724c052c873d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e25c3c8c02354631c5724c052c873d">classifica_pokemon</a> (const char *tipo)</td></tr>
+<tr class="memdesc:ab9e25c3c8c02354631c5724c052c873d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classifica um Pokémon com base no seu tipo.  <br /></td></tr>
+<tr class="separator:ab9e25c3c8c02354631c5724c052c873d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559ee9b7ecb1ab706d1213c5bc569ea9" id="r_a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559ee9b7ecb1ab706d1213c5bc569ea9">mais_forte</a> (char *tipo_atk, char *tipo_def)</td></tr>
+<tr class="memdesc:a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se um tipo atacante dado é mais forte do que um tipo defensor dado.  <br /></td></tr>
+<tr class="separator:a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e25079af3d53a7ea79c61ff7d53886" id="r_a59e25079af3d53a7ea79c61ff7d53886"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e25079af3d53a7ea79c61ff7d53886">mais_fraco</a> (char *tipo_atk, char *tipo_def)</td></tr>
+<tr class="memdesc:a59e25079af3d53a7ea79c61ff7d53886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se o tipo defensor é mais fraco do que o tipo atacante.  <br /></td></tr>
+<tr class="separator:a59e25079af3d53a7ea79c61ff7d53886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24b76f7fd75715f2ae0a25b748d317e" id="r_ac24b76f7fd75715f2ae0a25b748d317e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac24b76f7fd75715f2ae0a25b748d317e">ataca</a> (<a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *jogadores, int atacante)</td></tr>
+<tr class="memdesc:ac24b76f7fd75715f2ae0a25b748d317e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Realiza um ataque entre dois jogadores.  <br /></td></tr>
+<tr class="separator:ac24b76f7fd75715f2ae0a25b748d317e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8880ef9ec1fb57f91032e86506ec32f4" id="r_a8880ef9ec1fb57f91032e86506ec32f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8880ef9ec1fb57f91032e86506ec32f4">checa_sobreviventes</a> (<a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *jogadores, int vencedor)</td></tr>
+<tr class="memdesc:a8880ef9ec1fb57f91032e86506ec32f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checa os pokémons sobreviventes após o fim do jogo.  <br /></td></tr>
+<tr class="separator:a8880ef9ec1fb57f91032e86506ec32f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c8fbf17ddc1f12e8a635032d366b5f" id="r_a60c8fbf17ddc1f12e8a635032d366b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60c8fbf17ddc1f12e8a635032d366b5f">checa_derrotados</a> (<a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *jogadores)</td></tr>
+<tr class="memdesc:a60c8fbf17ddc1f12e8a635032d366b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica os pokémons derrotados após o fim do jogo.  <br /></td></tr>
+<tr class="separator:a60c8fbf17ddc1f12e8a635032d366b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Este arquivo contém as implementações das funções definidas em <code><a class="el" href="../../d9/daf/pok__utils_8h.html" title="Este arquivo define as funções usadas na manipulação de pokemons.">pok_utils.h</a></code>: </p>
+<p>Este arquivo contém as implementações das funcões definidas em <code><a class="el" href="../../d9/daf/pok__utils_8h.html" title="Este arquivo define as funções usadas na manipulação de pokemons.">pok_utils.h</a></code>. As funções implementadas são responsáveis por controlar os stats dos pokemons e fazer os cálculos de batalha.</p>
+<p>Contém as funções:</p><ul>
+<li><a class="el" href="#adf8d49191a61729cd58c809b5296565d" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres.">cria_jogadores()</a>: cria uma lista de jogadores a partir de uma cadeia de caracteres.</li>
+<li><a class="el" href="#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo.">classifica_pokemon()</a>: classifica um pokemon com base no seu tipo.</li>
+<li><a class="el" href="#a559ee9b7ecb1ab706d1213c5bc569ea9" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado.">mais_forte()</a>: determina se o tipo defensor é mais forte do que o tipo atacante.</li>
+<li><a class="el" href="#a59e25079af3d53a7ea79c61ff7d53886" title="Determina se o tipo defensor é mais fraco do que o tipo atacante.">mais_fraco()</a>: determina se o tipo defensor é mais fraco do que o tipo atacante.</li>
+<li><a class="el" href="#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores.">ataca()</a>: realiza um ataque entre dois jogadores.</li>
+<li><a class="el" href="#a8880ef9ec1fb57f91032e86506ec32f4" title="Checa os pokémons sobreviventes após o fim do jogo.">checa_sobreviventes()</a>: checa os pokemons sobreviventes após o fim do jogo.</li>
+<li><a class="el" href="#a60c8fbf17ddc1f12e8a635032d366b5f" title="Verifica os pokémons derrotados após o fim do jogo.">checa_derrotados()</a>: verifica os pokemons derrotados após o fim do jogo.</li>
+</ul>
+<dl class="section author"><dt>Autor</dt><dd>Isaac Reyes (<a href="#" onclick="location.href='mai'+'lto:'+'isa'+'ac'+'.re'+'ya'+'lve'+'s@'+'gma'+'il'+'.co'+'m'; return false;">isaac<span class="obfuscator">.nosp@m.</span>.rey<span class="obfuscator">.nosp@m.</span>alves<span class="obfuscator">.nosp@m.</span>@gma<span class="obfuscator">.nosp@m.</span>il.co<span class="obfuscator">.nosp@m.</span>m</a>) </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>1.1.3 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2024-05-10 </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000003">Bug</a></b></dt><dd>Nenhum bug encontrado.</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2024 </dd></dl>
+</div><h2 class="groupheader">Funções</h2>
+<a id="ac24b76f7fd75715f2ae0a25b748d317e" name="ac24b76f7fd75715f2ae0a25b748d317e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24b76f7fd75715f2ae0a25b748d317e">&#9670;&#160;</a></span>ataca()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ataca </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *</td>          <td class="paramname"><span class="paramname"><em>jogadores</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>atacante</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Realiza um ataque entre dois jogadores. </p>
+<p>Para realizar o ataque, a função verifica qual a relação de tipo entre os pokemons envolvidos. Se o atacante for mais forte do que o defensor, o ataque é de 1.2x. Se o atacante for mais fraco do que o defensor, o ataque é de 0.8x. Ao final, verifica se o defensor foi derrotado e registra o resultado nos logs.</p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jogadores</td><td>Array contendo os jogadores. </td></tr>
+    <tr><td class="paramname">atacante</td><td>Índice do jogador atacante. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_cgraph" id="ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_cgraph">
+<area shape="rect" title="Realiza um ataque entre dois jogadores." alt="" coords="5,56,59,83"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="107,5,205,32"/>
+<area shape="poly" title=" " alt="" coords="58,56,106,36,109,41,60,61"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a559ee9b7ecb1ab706d1213c5bc569ea9" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="115,56,197,83"/>
+<area shape="poly" title=" " alt="" coords="59,67,100,67,100,72,59,72"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a59e25079af3d53a7ea79c61ff7d53886" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="114,107,198,133"/>
+<area shape="poly" title=" " alt="" coords="60,78,109,98,106,103,58,83"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="267,5,374,32"/>
+<area shape="poly" title=" " alt="" coords="205,16,251,16,251,21,205,21"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="253,81,388,108"/>
+<area shape="poly" title=" " alt="" coords="197,73,238,79,238,85,196,78"/>
+<area shape="poly" title=" " alt="" coords="198,111,238,105,238,110,199,116"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_icgraph" id="ad1/dbe/pok__utils_8c_ac24b76f7fd75715f2ae0a25b748d317e_icgraph">
+<area shape="rect" title="Realiza um ataque entre dois jogadores." alt="" coords="233,5,286,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,5,185,32"/>
+<area shape="poly" title=" " alt="" coords="218,21,185,21,185,16,218,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a60c8fbf17ddc1f12e8a635032d366b5f" name="a60c8fbf17ddc1f12e8a635032d366b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c8fbf17ddc1f12e8a635032d366b5f">&#9670;&#160;</a></span>checa_derrotados()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void checa_derrotados </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *</td>          <td class="paramname"><span class="paramname"><em>jogadores</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica os pokémons derrotados após o fim do jogo. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jogadores</td><td>Um array de estruturas do tipo <a class="el" href="../../db/d78/struct_t_jogador.html" title="Tipo de variável estruturada para os jogadores.">TJogador</a> contendo os jogadores e seus pokémons. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_cgraph" id="ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_cgraph">
+<area shape="rect" title="Verifica os pokémons derrotados após o fim do jogo." alt="" coords="5,5,130,32"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="178,5,276,32"/>
+<area shape="poly" title=" " alt="" coords="130,16,162,16,162,21,130,21"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="324,5,431,32"/>
+<area shape="poly" title=" " alt="" coords="276,16,308,16,308,21,276,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_icgraph" id="ad1/dbe/pok__utils_8c_a60c8fbf17ddc1f12e8a635032d366b5f_icgraph">
+<area shape="rect" title="Verifica os pokémons derrotados após o fim do jogo." alt="" coords="233,5,357,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,5,185,32"/>
+<area shape="poly" title=" " alt="" coords="218,21,186,21,186,16,218,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8880ef9ec1fb57f91032e86506ec32f4" name="a8880ef9ec1fb57f91032e86506ec32f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8880ef9ec1fb57f91032e86506ec32f4">&#9670;&#160;</a></span>checa_sobreviventes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void checa_sobreviventes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *</td>          <td class="paramname"><span class="paramname"><em>jogadores</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>vencedor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checa os pokémons sobreviventes após o fim do jogo. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jogadores</td><td>O array de jogadores. </td></tr>
+    <tr><td class="paramname">vencedor</td><td>O índice do jogador vencedor. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_cgraph" id="ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_cgraph">
+<area shape="rect" title="Checa os pokémons sobreviventes após o fim do jogo." alt="" coords="5,5,146,32"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="194,5,292,32"/>
+<area shape="poly" title=" " alt="" coords="146,16,178,16,178,21,146,21"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="340,5,447,32"/>
+<area shape="poly" title=" " alt="" coords="292,16,324,16,324,21,292,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_icgraph" id="ad1/dbe/pok__utils_8c_a8880ef9ec1fb57f91032e86506ec32f4_icgraph">
+<area shape="rect" title="Checa os pokémons sobreviventes após o fim do jogo." alt="" coords="233,5,373,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,5,185,32"/>
+<area shape="poly" title=" " alt="" coords="218,21,186,21,186,16,218,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab9e25c3c8c02354631c5724c052c873d" name="ab9e25c3c8c02354631c5724c052c873d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e25c3c8c02354631c5724c052c873d">&#9670;&#160;</a></span>classifica_pokemon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int classifica_pokemon </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tipo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Classifica um Pokémon com base no seu tipo. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tipo</td><td>O tipo do Pokémon.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Um valor inteiro representando a classificação do Pokémon.<ul>
+<li>0: Tipo Elétrico</li>
+<li>1: Tipo Água</li>
+<li>2: Tipo Fogo</li>
+<li>3: Tipo Gelo</li>
+<li>4: Tipo Pedra</li>
+<li>5: Tipo Desconhecido </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_ab9e25c3c8c02354631c5724c052c873d_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_ab9e25c3c8c02354631c5724c052c873d_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_ab9e25c3c8c02354631c5724c052c873d_icgraph" id="ad1/dbe/pok__utils_8c_ab9e25c3c8c02354631c5724c052c873d_icgraph">
+<area shape="rect" title="Classifica um Pokémon com base no seu tipo." alt="" coords="467,31,602,57"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a559ee9b7ecb1ab706d1213c5bc569ea9" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="336,5,417,32"/>
+<area shape="poly" title=" " alt="" coords="451,33,417,28,418,23,452,28"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a59e25079af3d53a7ea79c61ff7d53886" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="334,56,419,83"/>
+<area shape="poly" title=" " alt="" coords="452,60,419,65,419,60,451,55"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,31,286,57"/>
+<area shape="poly" title=" " alt="" coords="321,33,287,41,286,36,320,28"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,31,185,57"/>
+<area shape="poly" title=" " alt="" coords="218,47,185,47,185,41,218,41"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,31,55,57"/>
+<area shape="poly" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
+<area shape="poly" title=" " alt="" coords="319,60,286,52,287,47,320,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adf8d49191a61729cd58c809b5296565d" name="adf8d49191a61729cd58c809b5296565d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf8d49191a61729cd58c809b5296565d">&#9670;&#160;</a></span>cria_jogadores()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> * cria_jogadores </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cria uma lista de jogadores a partir de uma cadeia de caracteres. </p>
+<dl class="section author"><dt>Autor</dt><dd>Isaac Reyes</dd></dl>
+<p>Esta função quebra uma cadeia de caracteres para criar um array de estruturas <a class="el" href="../../db/d78/struct_t_jogador.html" title="Tipo de variável estruturada para os jogadores.">TJogador</a>. A cadeia de caracteres deve conter informações sobre dois jogadores e seus Pokemons. Cada linha da cadeia de caracteres representa um Pokemon e seus atributos. A primeira linha da cadeia de caracteres deve conter o número de Pokemons de cada jogador.</p>
+<dl class="section note"><dt>Observação</dt><dd>Cada jogador é representado por uma estrutura <a class="el" href="../../db/d78/struct_t_jogador.html" title="Tipo de variável estruturada para os jogadores.">TJogador</a>. </dd>
+<dd>
+Cada pokemon de cada jogador é representado por uma estrutura <a class="el" href="../../d7/d10/struct_t_pokemon.html" title="Tipo de variável estruturada para os pokemons.">TPokemon</a>.</dd></dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>A string de dados contendo as informações dos jogadores e seus pokémons.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Um ponteiro para a lista de jogadores criada. </dd></dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_cgraph" id="ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_cgraph">
+<area shape="rect" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="5,5,111,32"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#ad8129b1c5e92e0eec41dbbddfe99b765" title="Divide uma cadeia de caracteres em um array de palavras." alt="" coords="159,5,246,32"/>
+<area shape="poly" title=" " alt="" coords="111,16,143,16,143,21,111,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_icgraph" id="ad1/dbe/pok__utils_8c_adf8d49191a61729cd58c809b5296565d_icgraph">
+<area shape="rect" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="103,5,208,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a559ee9b7ecb1ab706d1213c5bc569ea9" name="a559ee9b7ecb1ab706d1213c5bc569ea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559ee9b7ecb1ab706d1213c5bc569ea9">&#9670;&#160;</a></span>mais_forte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mais_forte </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_atk</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_def</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determina se um tipo atacante dado é mais forte do que um tipo defensor dado. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tipo_atk</td><td>O tipo atacante. </td></tr>
+    <tr><td class="paramname">tipo_def</td><td>O tipo defensor.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>1 se o tipo atacante for mais forte do que o tipo defensor, 0 caso contrário. </dd></dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph" id="ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph">
+<area shape="rect" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="5,5,87,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="135,5,270,32"/>
+<area shape="poly" title=" " alt="" coords="87,16,119,16,119,21,87,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph" id="ad1/dbe/pok__utils_8c_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph">
+<area shape="rect" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="334,5,416,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,5,286,32"/>
+<area shape="poly" title=" " alt="" coords="319,21,287,21,287,16,319,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,5,185,32"/>
+<area shape="poly" title=" " alt="" coords="218,21,185,21,185,16,218,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a59e25079af3d53a7ea79c61ff7d53886" name="a59e25079af3d53a7ea79c61ff7d53886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e25079af3d53a7ea79c61ff7d53886">&#9670;&#160;</a></span>mais_fraco()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mais_fraco </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_atk</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_def</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determina se o tipo defensor é mais fraco do que o tipo atacante. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tipo_atk</td><td>O tipo atacante. </td></tr>
+    <tr><td class="paramname">tipo_def</td><td>O tipo defensor.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>1 se o tipo defensor for mais fraco do que o tipo atacante, 0 caso contrário. </dd></dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_cgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_cgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_cgraph" id="ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_cgraph">
+<area shape="rect" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="5,5,90,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="138,5,273,32"/>
+<area shape="poly" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_icgraph.png" border="0" usemap="#ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_icgraph" alt=""/></div>
+<map name="ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_icgraph" id="ad1/dbe/pok__utils_8c_a59e25079af3d53a7ea79c61ff7d53886_icgraph">
+<area shape="rect" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="334,5,419,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,5,286,32"/>
+<area shape="poly" title=" " alt="" coords="319,21,287,21,287,16,319,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,5,185,32"/>
+<area shape="poly" title=" " alt="" coords="218,21,185,21,185,16,218,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d1/dbe/pok__utils_8c.html">pok_utils.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

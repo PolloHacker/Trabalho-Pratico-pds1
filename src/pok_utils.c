@@ -1,7 +1,7 @@
 /**
  * @file pok_utils.c
  * 
- * @brief Este arquivo contém as implementações das funções definidas em `pok_utils.h`:
+ * @brief Este arquivo contém as implementações das funções definidas em `pok_utils.h`
  * 
  * Este arquivo contém as implementações das funcões definidas em `pok_utils.h`.
  * As funções implementadas são responsáveis por controlar os stats dos pokemons e fazer os cálculos de batalha.

@@ -1,0 +1,413 @@
+<!-- HTML header for doxygen 1.10.0-->
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="generator" content="Doxygen 1.10.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trabalho Prático - PDS1: Referência do Arquivo src/file_utils.c</title>
+  <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../../jquery.js"></script>
+  <script type="text/javascript" src="../../dynsections.js"></script>
+  <script type="text/javascript" src="../../clipboard.js"></script>
+  <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+  <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+  <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+  <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeParagraphLink.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+  </script>
+</head>
+<body>
+    <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr id="projectrow">
+              <td id="projectalign">
+                <div id="projectname">Trabalho Prático - PDS1
+                </div>
+                <div id="projectbrief">Este projeto é um simulador de batalha</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d5/d5e/file__utils_8c.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo file_utils.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Este arquivo contém as implementações das funções definidas em <code><a class="el" href="../../d1/d9d/file__utils_8h.html" title="Este arquivo define as funções usadas na gravação e leitura de arquivos.">file_utils.h</a></code>.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc2/definitions_8h_source.html">definitions.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para file_utils.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d30/file__utils_8c__incl.png" border="0" usemap="#asrc_2file__utils_8c" alt=""/></div>
+<map name="asrc_2file__utils_8c" id="asrc_2file__utils_8c">
+<area shape="rect" title="Este arquivo contém as implementações das funções definidas em file_utils.h." alt="" coords="158,5,260,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,66,107"/>
+<area shape="poly" title=" " alt="" coords="180,35,81,76,79,71,178,30"/>
+<area shape="rect" title=" " alt="" coords="89,80,153,107"/>
+<area shape="poly" title=" " alt="" coords="195,35,149,72,146,68,192,30"/>
+<area shape="rect" title=" " alt="" coords="177,80,241,107"/>
+<area shape="poly" title=" " alt="" coords="212,33,212,64,206,64,206,33"/>
+<area shape="rect" title=" " alt="" coords="266,80,323,107"/>
+<area shape="poly" title=" " alt="" coords="225,31,270,68,266,72,222,35"/>
+<area shape="rect" href="../../d6/dc2/definitions_8h.html" title="Este arquivo contém as definições das estruturas e variáveis globais usadas na simulação." alt="" coords="346,80,437,107"/>
+<area shape="poly" title=" " alt="" coords="242,30,346,71,344,76,240,35"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:add2c6ee1e623c81052716bbedc2e5c13" id="r_add2c6ee1e623c81052716bbedc2e5c13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add2c6ee1e623c81052716bbedc2e5c13">cria_log</a> ()</td></tr>
+<tr class="memdesc:add2c6ee1e623c81052716bbedc2e5c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cria um arquivo de log com o timestamp atual.  <br /></td></tr>
+<tr class="separator:add2c6ee1e623c81052716bbedc2e5c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38de9037b428f8d2730ec591338a5ea7" id="r_a38de9037b428f8d2730ec591338a5ea7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38de9037b428f8d2730ec591338a5ea7">verifica_arquivo</a> (char *nome_arq)</td></tr>
+<tr class="memdesc:a38de9037b428f8d2730ec591338a5ea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica se um arquivo com o nome fornecido existe no sistema.  <br /></td></tr>
+<tr class="separator:a38de9037b428f8d2730ec591338a5ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d82f1c793664df60ee078ff38f7365" id="r_af5d82f1c793664df60ee078ff38f7365"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d82f1c793664df60ee078ff38f7365">grava_arquivo</a> (char *nome_arq, char *data)</td></tr>
+<tr class="memdesc:af5d82f1c793664df60ee078ff38f7365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grava uma cadeia de caracteres em um arquivo.  <br /></td></tr>
+<tr class="separator:af5d82f1c793664df60ee078ff38f7365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6d6c86069e8613f8f130950f3f9c71" id="r_a7a6d6c86069e8613f8f130950f3f9c71"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6d6c86069e8613f8f130950f3f9c71">le_arquivo</a> (char *nome_arq)</td></tr>
+<tr class="memdesc:a7a6d6c86069e8613f8f130950f3f9c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres  <br /></td></tr>
+<tr class="separator:a7a6d6c86069e8613f8f130950f3f9c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8129b1c5e92e0eec41dbbddfe99b765" id="r_ad8129b1c5e92e0eec41dbbddfe99b765"><td class="memItemLeft" align="right" valign="top">char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8129b1c5e92e0eec41dbbddfe99b765">divide_linha</a> (char *line)</td></tr>
+<tr class="memdesc:ad8129b1c5e92e0eec41dbbddfe99b765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide uma cadeia de caracteres em um array de palavras.  <br /></td></tr>
+<tr class="separator:ad8129b1c5e92e0eec41dbbddfe99b765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Este arquivo contém as implementações das funções definidas em <code><a class="el" href="../../d1/d9d/file__utils_8h.html" title="Este arquivo define as funções usadas na gravação e leitura de arquivos.">file_utils.h</a></code>. </p>
+<p>Este arquivo contém as implementações das funcões definidas em <code><a class="el" href="../../d1/d9d/file__utils_8h.html" title="Este arquivo define as funções usadas na gravação e leitura de arquivos.">file_utils.h</a></code>. As funções implementadas são responsáveis pela criação, verificação, escrita, leitura de arquivos e o tratamento de dados oriundos dos mesmos. Contém as funções:</p><ul>
+<li><a class="el" href="#add2c6ee1e623c81052716bbedc2e5c13" title="Cria um arquivo de log com o timestamp atual.">cria_log()</a>: cria um arquivo de log com o timestamp atual</li>
+<li><a class="el" href="#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema.">verifica_arquivo()</a>: verifica se um arquivo existe</li>
+<li><a class="el" href="#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo.">grava_arquivo()</a>: grava uma cadeia de caracteres em um arquivo</li>
+<li><a class="el" href="#a7a6d6c86069e8613f8f130950f3f9c71" title="lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres">le_arquivo()</a>: lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres</li>
+<li><a class="el" href="#ad8129b1c5e92e0eec41dbbddfe99b765" title="Divide uma cadeia de caracteres em um array de palavras.">divide_linha()</a>: divide uma cadeia de caracteres em um array de palavras</li>
+</ul>
+<dl class="section author"><dt>Autor</dt><dd>Isaac Reyes (<a href="#" onclick="location.href='mai'+'lto:'+'isa'+'ac'+'.re'+'ya'+'lve'+'s@'+'gma'+'il'+'.co'+'m'; return false;">isaac<span class="obfuscator">.nosp@m.</span>.rey<span class="obfuscator">.nosp@m.</span>alves<span class="obfuscator">.nosp@m.</span>@gma<span class="obfuscator">.nosp@m.</span>il.co<span class="obfuscator">.nosp@m.</span>m</a>) </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>1.1.3 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2024-05-10 </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000001">Bug</a></b></dt><dd>Nenhum bug encontrado.</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2024 </dd></dl>
+</div><h2 class="groupheader">Funções</h2>
+<a id="add2c6ee1e623c81052716bbedc2e5c13" name="add2c6ee1e623c81052716bbedc2e5c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add2c6ee1e623c81052716bbedc2e5c13">&#9670;&#160;</a></span>cria_log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cria_log </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cria um arquivo de log com o timestamp atual. </p>
+<p>Cria um arquivo de log com o timestamp atual no formato <code>log_d-m-Y_H-M-S.txt</code>, onde d representa o dia, m representa o mês, Y representa o ano, H representa a hora, M representa o minuto e S representa o segundo.</p>
+<dl class="section note"><dt>Observação</dt><dd>O arquivo de log será criado no diretório <code>logs</code>. </dd></dl>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_add2c6ee1e623c81052716bbedc2e5c13_icgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_add2c6ee1e623c81052716bbedc2e5c13_icgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_add2c6ee1e623c81052716bbedc2e5c13_icgraph" id="ad5/d5e/file__utils_8c_add2c6ee1e623c81052716bbedc2e5c13_icgraph">
+<area shape="rect" title="Cria um arquivo de log com o timestamp atual." alt="" coords="103,5,169,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad8129b1c5e92e0eec41dbbddfe99b765" name="ad8129b1c5e92e0eec41dbbddfe99b765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8129b1c5e92e0eec41dbbddfe99b765">&#9670;&#160;</a></span>divide_linha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char ** divide_linha </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>line</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Divide uma cadeia de caracteres em um array de palavras. </p>
+<p>Recebe uma cadeia de caracteres como entrada e a divide em palavras individuais. As palavras são armazenadas em um array alocado dinamicamente.</p>
+<dl class="section note"><dt>Observação</dt><dd>O último elemento do array é definido como NULL.</dd></dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">line</td><td>A cadeia de caracteres de entrada a ser dividida.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Um array de cadeia de caracteress alocado dinamicamente contendo as palavras. </dd></dl>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_ad8129b1c5e92e0eec41dbbddfe99b765_icgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_ad8129b1c5e92e0eec41dbbddfe99b765_icgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_ad8129b1c5e92e0eec41dbbddfe99b765_icgraph" id="ad5/d5e/file__utils_8c_ad8129b1c5e92e0eec41dbbddfe99b765_icgraph">
+<area shape="rect" title="Divide uma cadeia de caracteres em um array de palavras." alt="" coords="256,5,343,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#adf8d49191a61729cd58c809b5296565d" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="103,5,208,32"/>
+<area shape="poly" title=" " alt="" coords="240,21,208,21,208,16,240,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af5d82f1c793664df60ee078ff38f7365" name="af5d82f1c793664df60ee078ff38f7365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d82f1c793664df60ee078ff38f7365">&#9670;&#160;</a></span>grava_arquivo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int grava_arquivo </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>nome_arq</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Grava uma cadeia de caracteres em um arquivo. </p>
+<p>Grava a cadeia de caracteres fornecida em um arquivo especificado pelo nome. Se este já existir, os dados serão adicionados ao final.</p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nome_arq</td><td>O nome do arquivo onde os dados serão gravados. </td></tr>
+    <tr><td class="paramname">data</td><td>A cadeia de caracteres a ser gravada no arquivo.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Retorna 1 se os dados foram gravados com sucesso, caso contrário retorna 0. </dd></dl>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_cgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_cgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_cgraph" id="ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_cgraph">
+<area shape="rect" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="5,5,104,32"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="152,5,259,32"/>
+<area shape="poly" title=" " alt="" coords="104,16,136,16,136,21,104,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_icgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_icgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_icgraph" id="ad5/d5e/file__utils_8c_af5d82f1c793664df60ee078ff38f7365_icgraph">
+<area shape="rect" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="421,107,520,133"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="277,5,330,32"/>
+<area shape="poly" title=" " alt="" coords="439,99,372,53,329,31,331,27,375,48,442,95"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,107,185,133"/>
+<area shape="poly" title=" " alt="" coords="411,105,373,97,303,91,233,97,185,109,184,104,233,92,303,86,374,92,412,100"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,157,55,184"/>
+<area shape="poly" title=" " alt="" coords="449,146,416,175,374,198,330,210,284,215,237,215,192,212,112,197,54,181,56,176,113,192,193,206,238,210,283,210,329,205,372,194,413,171,446,142"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a60c8fbf17ddc1f12e8a635032d366b5f" title="Verifica os pokémons derrotados após o fim do jogo." alt="" coords="241,107,365,133"/>
+<area shape="poly" title=" " alt="" coords="406,123,366,123,366,117,406,117"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a8880ef9ec1fb57f91032e86506ec32f4" title="Checa os pokémons sobreviventes após o fim do jogo." alt="" coords="233,157,373,184"/>
+<area shape="poly" title=" " alt="" coords="410,141,351,159,349,154,408,136"/>
+<area shape="poly" title=" " alt="" coords="264,37,234,53,195,81,162,108,159,104,191,77,232,48,261,33"/>
+<area shape="poly" title=" " alt="" coords="100,143,56,162,54,157,97,138"/>
+<area shape="poly" title=" " alt="" coords="225,123,185,123,185,117,225,117"/>
+<area shape="poly" title=" " alt="" coords="243,155,185,136,186,131,245,149"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7a6d6c86069e8613f8f130950f3f9c71" name="a7a6d6c86069e8613f8f130950f3f9c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6d6c86069e8613f8f130950f3f9c71">&#9670;&#160;</a></span>le_arquivo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * le_arquivo </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>nome_arq</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres </p>
+<p>Lê dados de um arquivo especificado pelo nome e os retorna como uma cadeia de caracteres. Enquanto o número de pokemons lidos for menor que o número de pokemons especificado, os dados são lidos e concatenados em uma cadeia de caracteres.</p>
+<dl class="section note"><dt>Observação</dt><dd>Se o arquivo não puder ser aberto ou ocorrer um erro durante a leitura, NULL é retornado.</dd></dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nome_arq</td><td>O nome do arquivo a ser lido.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Uma cadeia de caracteres alocada dinamicamente contendo os dados lidos do arquivo. </dd></dl>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_a7a6d6c86069e8613f8f130950f3f9c71_icgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_a7a6d6c86069e8613f8f130950f3f9c71_icgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_a7a6d6c86069e8613f8f130950f3f9c71_icgraph" id="ad5/d5e/file__utils_8c_a7a6d6c86069e8613f8f130950f3f9c71_icgraph">
+<area shape="rect" title="lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres" alt="" coords="103,5,181,32"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a38de9037b428f8d2730ec591338a5ea7" name="a38de9037b428f8d2730ec591338a5ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38de9037b428f8d2730ec591338a5ea7">&#9670;&#160;</a></span>verifica_arquivo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int verifica_arquivo </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>nome_arq</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica se um arquivo com o nome fornecido existe no sistema. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nome_arq</td><td>O nome do arquivo a ser verificado.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Retorna 1 se o arquivo existe, 0 caso contrário. </dd></dl>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d5e/file__utils_8c_a38de9037b428f8d2730ec591338a5ea7_icgraph.png" border="0" usemap="#ad5/d5e/file__utils_8c_a38de9037b428f8d2730ec591338a5ea7_icgraph" alt=""/></div>
+<map name="ad5/d5e/file__utils_8c_a38de9037b428f8d2730ec591338a5ea7_icgraph" id="ad5/d5e/file__utils_8c_a38de9037b428f8d2730ec591338a5ea7_icgraph">
+<area shape="rect" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="568,107,675,133"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="421,107,520,133"/>
+<area shape="poly" title=" " alt="" coords="552,123,520,123,520,117,552,117"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="277,5,330,32"/>
+<area shape="poly" title=" " alt="" coords="439,99,372,53,329,31,331,27,375,48,442,95"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,107,185,133"/>
+<area shape="poly" title=" " alt="" coords="411,105,373,97,303,91,233,97,185,109,184,104,233,92,303,86,374,92,412,100"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,157,55,184"/>
+<area shape="poly" title=" " alt="" coords="449,146,416,175,374,198,330,210,284,215,237,215,192,212,112,197,54,181,56,176,113,192,193,206,238,210,283,210,329,205,372,194,413,171,446,142"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a60c8fbf17ddc1f12e8a635032d366b5f" title="Verifica os pokémons derrotados após o fim do jogo." alt="" coords="241,107,365,133"/>
+<area shape="poly" title=" " alt="" coords="406,123,366,123,366,117,406,117"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a8880ef9ec1fb57f91032e86506ec32f4" title="Checa os pokémons sobreviventes após o fim do jogo." alt="" coords="233,157,373,184"/>
+<area shape="poly" title=" " alt="" coords="410,141,351,159,349,154,408,136"/>
+<area shape="poly" title=" " alt="" coords="264,37,234,53,195,81,162,108,159,104,191,77,232,48,261,33"/>
+<area shape="poly" title=" " alt="" coords="100,143,56,162,54,157,97,138"/>
+<area shape="poly" title=" " alt="" coords="225,123,185,123,185,117,225,117"/>
+<area shape="poly" title=" " alt="" coords="243,155,185,136,186,131,245,149"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d5/d5e/file__utils_8c.html">file_utils.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

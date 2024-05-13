@@ -12,4 +12,4 @@ include_directories(include)                # Include current directory for head
 set(SOURCE_FILES src/main.c src/file_utils.c src/pok_utils.c)
 
 # Create an executable
-add_executable(TrabalhoPraticoPDS1 ${SOURCE_FILES})
+add_executable(tp_pds1 ${SOURCE_FILES})

@@ -1,17 +1,22 @@
 /**
  * @file file_utils.c
- * @author Isaac Reyes (isaac.reyalves@gmail.com)
  * 
- * @brief Este arquivo contém as funções definidas em `file_utils.h`:
+ * @brief Este arquivo contém as implementações das funções definidas em `file_utils.h`.
+ * 
+ * Este arquivo contém as implementações das funcões definidas em `file_utils.h`.
+ * As funções implementadas são responsáveis pela criação, verificação, escrita, 
+ * leitura de arquivos e o tratamento de dados oriundos dos mesmos.
+ * Contém as funções:
  *  - cria_log(): cria um arquivo de log com o timestamp atual
  *  - verifica_arquivo(): verifica se um arquivo existe
  *  - grava_arquivo(): grava uma cadeia de caracteres em um arquivo
- *  - le_arquivo(): le um arquivo e retorna seu conteúdo como uma cadeia de caracteres
- *  - divide_linha(): divide uma linha de um arquivo em um array de strings
+ *  - le_arquivo(): lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres
+ *  - divide_linha(): divide uma cadeia de caracteres em um array de palavras
  * 
- * @bug Nenhum bug encontrado.
+ * @author Isaac Reyes (isaac.reyalves@gmail.com)
  * @version 1.1.3
  * @date 2024-05-10
+ * @bug Nenhum bug encontrado.
  * 
  * @copyright Copyright (c) 2024
  * 
@@ -26,7 +31,9 @@
 
 
 /**
- * @brief Cria um arquivo de log com o timestamp atual no formato `log_%d-%m-%Y_%H-%M-%S.txt`,
+ * @brief Cria um arquivo de log com o timestamp atual
+ * 
+ * Cria um arquivo de log com o timestamp atual no formato `log_%d-%m-%Y_%H-%M-%S.txt`,
  * onde %d representa o dia, %m representa o mês, %Y representa o ano, %H representa a hora,
  * %M representa o minuto e %S representa o segundo.
  * 
@@ -35,12 +42,12 @@
 void cria_log() {
     time_t now = time(0);
     struct tm *t = localtime(&now);
-    strftime(nome_arquivo, sizeof(nome_arquivo), "./logs/log_%d-%m-%Y_%H-%M-%S.txt", t);
+    strftime(nome_arq_log, sizeof(nome_arq_log), "./logs/log_%d-%m-%Y_%H-%M-%S.txt", t);
 }
 
 
 /**
- * @brief Verifica se um arquivo com o nome fornecido existe no sistema de arquivos.
+ * @brief Verifica se um arquivo com o nome fornecido existe no sistema.
  *
  * @param nome_arq O nome do arquivo a ser verificado.
  * 
@@ -55,8 +62,10 @@ int verifica_arquivo(char *nome_arq) {
 }
 
 /**
- * @brief Grava a cadeia de caracteres fornecida em um arquivo especificado pelo nome do arquivo.
- * Se este já existir, os dados serão adicionados ao final do arquivo.
+ * @brief Grava uma cadeia de caracteres em um arquivo
+ * 
+ * Grava a cadeia de caracteres fornecida em um arquivo especificado pelo nome.
+ * Se este já existir, os dados serão adicionados ao final.
  * 
  * @param nome_arq O nome do arquivo onde os dados serão gravados.
  * @param data A cadeia de caracteres a ser gravada no arquivo.
@@ -77,14 +86,18 @@ int grava_arquivo(char *nome_arq, char *data) {
 
 
 /**
- * @brief Lê dados de um arquivo especificado por `nome_arq` e os retorna como uma cadeia de caracteres.
+ * @brief lê um arquivo e retorna seu conteúdo como uma cadeia de caracteres
+ * 
+ * Lê dados de um arquivo especificado pelo nome e os retorna como uma cadeia de caracteres.
+ * Enquanto o número de pokemons lidos for menor que o número de pokemons especificado,
+ * os dados são lidos e concatenados em uma cadeia de caracteres.
+ * 
+ * @note Se o arquivo não puder ser aberto ou ocorrer um erro durante a leitura, NULL é retornado.
  *
  * @param nome_arq O nome do arquivo a ser lido.
  * 
  * @return Uma cadeia de caracteres alocada dinamicamente contendo os dados lidos do arquivo. 
  * 
- * @note O chamador é responsável por liberar a memória.
- * @note Se o arquivo não puder ser aberto ou ocorrer um erro durante a leitura, NULL é retornado.
  */
 char * le_arquivo(char *nome_arq) {
     char *data = NULL;
@@ -124,12 +137,14 @@ char * le_arquivo(char *nome_arq) {
  * @brief Divide uma cadeia de caracteres em um array de palavras.
  *
  * Recebe uma cadeia de caracteres como entrada e a divide em palavras individuais.
- * As palavras são armazenadas em um array de cadeia de caracteres alocado dinamicamente.
+ * As palavras são armazenadas em um array alocado dinamicamente.
+ * 
+ * @note O último elemento do array é definido como NULL.
  *
  * @param line A cadeia de caracteres de entrada a ser dividida.
+ * 
  * @return Um array de cadeia de caracteress alocado dinamicamente contendo as palavras.
  *
- * @note O último elemento do array é definido como NULL.
  */
 char ** divide_linha(char * line) {
     char ** palavras = (char **) malloc(sizeof(char*) * 100);

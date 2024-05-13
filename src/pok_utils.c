@@ -1,19 +1,24 @@
 /**
  * @file pok_utils.c
+ * 
+ * @brief Este arquivo contém as implementações das funções definidas em `pok_utils.h`:
+ * 
+ * Este arquivo contém as implementações das funcões definidas em `pok_utils.h`.
+ * As funções implementadas são responsáveis por controlar os stats dos pokemons e fazer os cálculos de batalha.
+ 
+ * Contém as funções:
+ *  - cria_jogadores(): cria uma lista de jogadores a partir de uma cadeia de caracteres.
+ *  - classifica_pokemon(): classifica um pokemon com base no seu tipo.
+ *  - mais_forte(): determina se o tipo defensor é mais forte do que o tipo atacante.
+ *  - mais_fraco(): determina se o tipo defensor é mais fraco do que o tipo atacante.
+ *  - ataca(): realiza um ataque entre dois jogadores.
+ *  - checa_sobreviventes(): checa os pokemons sobreviventes após o fim do jogo.
+ *  - checa_derrotados(): verifica os pokemons derrotados após o fim do jogo.
+ * 
  * @author Isaac Reyes (isaac.reyalves@gmail.com)
- * 
- * @brief Este arquivo contém as funções definidas em `pok_utils.h`:
- *  - cria_jogadores(): Cria uma lista de jogadores a partir de uma cadeia de caracteres.
- *  - classifica_pokemon(): Classifica um pokemon com base no seu tipo.
- *  - mais_forte(): Determina se o tipo defensor é mais forte do que o tipo atacante.
- *  - mais_fraco(): Determina se o tipo defensor é mais fraco do que o tipo atacante.
- *  - ataca(): Realiza um ataque entre dois jogadores.
- *  - checa_sobreviventes(): Checa os pokemons sobreviventes após o fim do jogo.
- *  - checa_derrotados(): Verifica os pokemons derrotados dos jogadores e registra em um arquivo.
- * 
- * @bug Nenhum bug encontrado.
  * @version 1.1.3
  * @date 2024-05-10
+ * @bug Nenhum bug encontrado.
  * 
  * @copyright Copyright (c) 2024
  * 
@@ -30,12 +35,20 @@
 /**
  * @author Isaac Reyes
  * 
- * @brief Cria uma lista de jogadores a partir de uma cadeia de caracteres com os dados.
- * Cada jogador é representado por uma estrutura TJogador.
+ * @brief Cria uma lista de jogadores a partir de uma cadeia de caracteres.
+ *
+ * Esta função quebra uma cadeia de caracteres para criar um array de estruturas TJogador.
+ * A cadeia de caracteres deve conter informações sobre dois jogadores e seus Pokemons.
+ * Cada linha da cadeia de caracteres representa um Pokemon e seus atributos.
+ * A primeira linha da cadeia de caracteres deve conter o número de Pokemons de cada jogador.
+ * 
+ * @note Cada jogador é representado por uma estrutura TJogador.
+ * @note Cada pokemon de cada jogador é representado por uma estrutura TPokemon.
  * 
  * @param data A string de dados contendo as informações dos jogadores e seus pokémons.
  * 
  * @return Um ponteiro para a lista de jogadores criada.
+ * 
  */
 TJogador * cria_jogadores(char *data) {
     TJogador * jogadores = (TJogador *) malloc(sizeof(TJogador) * 2);
@@ -146,6 +159,10 @@ int mais_fraco(char *tipo_atk, char * tipo_def) {
 /**
  * @brief Realiza um ataque entre dois jogadores.
  * 
+ * Para realizar o ataque, a função verifica qual a relação de tipo entre os pokemons envolvidos.
+ * Se o atacante for mais forte do que o defensor, o ataque é de 1.2x. Se o atacante for mais fraco do que o defensor, o ataque é de 0.8x.
+ * Ao final, verifica se o defensor foi derrotado e registra o resultado nos logs.
+ * 
  * @param jogadores Array contendo os jogadores.
  * @param atacante Índice do jogador atacante.
  */
@@ -171,20 +188,20 @@ void ataca(TJogador *jogadores, int atacante) {
     def = jogadores[defensor].poks[current_def].def;
     hp = jogadores[defensor].poks[current_def].hp;
 
-    snprintf(fstring, sizeof(fstring), "[+] Pokemon %s do jogador %d atacou pokemon %s do jogador %d com efeito de Atk %.1f/ Def %.1f. (%s)", jogadores[atacante].poks[current_atk].nome, atacante + 1, jogadores[defensor].poks[current_def].nome, defensor + 1, atk, def, forca);
-    grava_arquivo(nome_arquivo, fstring);
+    snprintf(form_string, sizeof(form_string), "[+] Pokemon %s do jogador %d atacou pokemon %s do jogador %d com efeito de Atk %.1f/ Def %.1f. (%s)", jogadores[atacante].poks[current_atk].nome, atacante + 1, jogadores[defensor].poks[current_def].nome, defensor + 1, atk, def, forca);
+    grava_arquivo(nome_arq_log, form_string);
 
     hp -= atk > def ? atk - def : 1;
-    snprintf(fstring, sizeof(fstring), "Pokemon %s agora tem %.1f de HP.\tInicial: %.1f\n", jogadores[defensor].poks[current_def].nome, hp, jogadores[defensor].poks[current_def].hp);
-    grava_arquivo(nome_arquivo, fstring);
+    snprintf(form_string, sizeof(form_string), "Pokemon %s agora tem %.1f de HP.\tInicial: %.1f\n", jogadores[defensor].poks[current_def].nome, hp, jogadores[defensor].poks[current_def].hp);
+    grava_arquivo(nome_arq_log, form_string);
 
     jogadores[defensor].poks[current_def].hp = hp;
 
     if (hp <= 0) {
         jogadores[defensor].current_pok++;
 
-        snprintf(fstring, sizeof(fstring), "[!] Pokemon %s do jogador %d perdeu.\n\n[+]----------Fim de round----------[+]\n", jogadores[defensor].poks[current_def].nome, defensor + 1);
-        grava_arquivo(nome_arquivo, fstring);
+        snprintf(form_string, sizeof(form_string), "[!] Pokemon %s do jogador %d perdeu.\n\n[+]----------Fim de round----------[+]\n", jogadores[defensor].poks[current_def].nome, defensor + 1);
+        grava_arquivo(nome_arq_log, form_string);
         printf("%s venceu %s\n", jogadores[atacante].poks[current_atk].nome, jogadores[defensor].poks[current_def].nome);
     }
 }
@@ -198,32 +215,32 @@ void ataca(TJogador *jogadores, int atacante) {
  */
 void checa_sobreviventes(TJogador *jogadores, int vencedor) {
     int i;
-    grava_arquivo(nome_arquivo, "\n\n[!]----------Fim de jogo----------[!]\nChecando sobreviventes...\n");
+    grava_arquivo(nome_arq_log, "\n\n[!]----------Fim de jogo----------[!]\nChecando sobreviventes...\n");
     printf("Pokemon sobreviventes:\n");
     for (i = jogadores[vencedor].current_pok; i < jogadores[vencedor].num_poks; i++) {
-        snprintf(fstring, sizeof(fstring), "[+] Pokemon %s do jogador %d sobreviveu.\n", jogadores[vencedor].poks[i].nome, vencedor + 1);
-        grava_arquivo(nome_arquivo, fstring);
+        snprintf(form_string, sizeof(form_string), "[+] Pokemon %s do jogador %d sobreviveu.\n", jogadores[vencedor].poks[i].nome, vencedor + 1);
+        grava_arquivo(nome_arq_log, form_string);
         printf("%s\n", jogadores[vencedor].poks[i].nome);
     }
 }
 
 /**
- * @brief Verifica os pokémons derrotados dos jogadores e registra em um arquivo.
+ * @brief Verifica os pokémons derrotados após o fim do jogo.
  * 
  * @param jogadores Um array de estruturas do tipo TJogador contendo os jogadores e seus pokémons.
  */
 void checa_derrotados(TJogador *jogadores) {
     int i;
-    grava_arquivo(nome_arquivo, "\nChecando derrotados...\n");
+    grava_arquivo(nome_arq_log, "\nChecando derrotados...\n");
     printf("Pokemon derrotados:\n");
     for (i = 0; i < jogadores[0].current_pok; i++) {
-        snprintf(fstring, sizeof(fstring), "[+] Pokemon %s do jogador 1 foi derrotado.\n", jogadores[0].poks[i].nome);
-        grava_arquivo(nome_arquivo, fstring);
+        snprintf(form_string, sizeof(form_string), "[+] Pokemon %s do jogador 1 foi derrotado.\n", jogadores[0].poks[i].nome);
+        grava_arquivo(nome_arq_log, form_string);
         printf("%s ", jogadores[0].poks[i].nome);
     }
     for (i = 0; i < jogadores[1].current_pok; i++) {
-        snprintf(fstring, sizeof(fstring), "[+] Pokemon %s do jogador 2 foi derrotado.\n", jogadores[1].poks[i].nome);
-        grava_arquivo(nome_arquivo, fstring);
+        snprintf(form_string, sizeof(form_string), "[+] Pokemon %s do jogador 2 foi derrotado.\n", jogadores[1].poks[i].nome);
+        grava_arquivo(nome_arq_log, form_string);
         printf("%s ", jogadores[1].poks[i].nome);
     }
     printf("\n");

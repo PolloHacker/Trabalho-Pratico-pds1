@@ -1,12 +1,12 @@
 /**
  * @file pok_utils.h
+ * 
+ * @brief Este arquivo define as funções usadas na manipulação de pokemons.
+ * 
  * @author Isaac Reyes (isaac.reyalves@gmail.com)
- * 
- * @brief Este arquivo define as funções usadas na manipulação de pokemons e jogadores.
- * 
- * @bug Nenhum bug encontrado.
  * @version 1.1.3
  * @date 2024-05-10
+ * @bug Nenhum bug encontrado.
  * 
  * @copyright Copyright (c) 2024
  * 

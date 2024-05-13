@@ -18,14 +18,27 @@ Para usar este projeto, siga os passos abaixo:
 
 2. Compile o código usando o seu compilador preferido.
 
-    ```bash
-    gcc -W -Wall -Werror main.c file_utils.c pok_utils.c -o main
-    ```
+    - Usando o compilador GCC
+
+        ```bash
+        gcc -W -Wall -Werror main.c file_utils.c pok_utils.c -o main
+        ```
+
+    - Usando CMake e Makefile
+
+        ```bash
+        mkdir build
+        cd build
+        cmake ..
+        make
+        ```
+
+        Caso a compilação resulte em erro, opte pelo compilador GCC e abra um *issue* no repositório.
 
 3. Execute o programa gerado.
 
     ```bash
-    ./main <input_file>.txt
+    ./tp_pds1.<extensão> <input_file>.txt
     ```
 
     Se nenhum arquivo de entrada for especificado, o programa irá usar o arquivo `input.txt` como a entrada de dados.
@@ -40,6 +53,6 @@ Para usar este projeto, siga os passos abaixo:
     Charmander 20 15 12 fogo
     ```
 
-## Licensa
+## Licença
 
 Este projeto está licenciado sob [MIT License](LICENSE).

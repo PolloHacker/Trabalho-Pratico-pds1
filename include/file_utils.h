@@ -1,12 +1,12 @@
 /**
  * @file file_utils.h
- * @author Isaac Reyes (isaac.reyalves@gmail.com)
  * 
  * @brief Este arquivo define as funções usadas na gravação e leitura de arquivos.
  * 
- * @bug Nenhum bug encontrado.
+ * @author Isaac Reyes (isaac.reyalves@gmail.com)
  * @version 1.1.3
  * @date 2024-05-10
+ * @bug Nenhum bug encontrado.
  * 
  * @copyright Copyright (c) 2024
  * 

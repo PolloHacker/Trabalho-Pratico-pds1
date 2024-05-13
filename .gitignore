@@ -54,8 +54,11 @@ dkms.conf
 # Log files
 logs/*
 
+# Build results
+build/*
 
 # Doxygen files
+doxy/*
 html/*
 latex/*
 

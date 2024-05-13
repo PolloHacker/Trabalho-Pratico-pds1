@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
         data = le_arquivo(argv[1]);
     } else {
         grava_arquivo(nome_arquivo, "[+]-----------------------------[+]\nNenhum arquivo informado.\nUsando o arquivo 'input.txt'.\nUso: main.exe <arquivo>.txt\n[+]-----------------------------[+]\n");
-        data = le_arquivo("./input/input.txt");
+        data = le_arquivo("src/input/input.txt");
     }
     if (data == NULL) {
         grava_arquivo(nome_arquivo, "[!] Erro ao ler arquivo.");

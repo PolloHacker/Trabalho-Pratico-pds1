@@ -23,6 +23,12 @@
 #ifndef DEFINITIONS_H
 #define DEFINITIONS_H
 
+#define FILE_NOT_EXISTS_ERR 1
+#define FILE_OP_ERR 2
+#define MEM_ERR 3
+
+#define UNKNOWN_TYPE 5
+
 
 /**
  * @brief Tipo de variável estruturada para os pokemons.
@@ -41,6 +47,7 @@ typedef struct pokemon {
     float hp;
     float atk;
     float def;
+    int tipo_int;
 
 } TPokemon;
 

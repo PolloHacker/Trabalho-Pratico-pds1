@@ -1,0 +1,17 @@
+11 5
+Pachirisu 15 17 9 eletrico
+Ampharos 15 14 11 agua
+Infernape 18 9 23 fogo
+Spheal 14 18 18 gelo
+Rampardos 9 18 22 pedra
+Lotad 14 18 20 agua
+Magmortar 21 16 24 fogo
+Sealeo 15 19 28 gelo
+Suicune 16 15 25 agua
+Dugtrio 12 26 24 pedra
+Charmander 18 12 26 fogo
+Lombre 17 5 39 agua
+Heatran 19 12 11 fogo
+Walrein 15 14 20 gelo
+Bonsly 11 19 17 pedra
+Pikachu 35 30 24 eletrico

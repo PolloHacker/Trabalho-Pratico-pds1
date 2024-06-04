@@ -155,12 +155,12 @@ Funções</h2></td></tr>
 <tr class="memitem:ab9e25c3c8c02354631c5724c052c873d" id="r_ab9e25c3c8c02354631c5724c052c873d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e25c3c8c02354631c5724c052c873d">classifica_pokemon</a> (const char *tipo)</td></tr>
 <tr class="memdesc:ab9e25c3c8c02354631c5724c052c873d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classifica um Pokémon com base no seu tipo.  <br /></td></tr>
 <tr class="separator:ab9e25c3c8c02354631c5724c052c873d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a559ee9b7ecb1ab706d1213c5bc569ea9" id="r_a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559ee9b7ecb1ab706d1213c5bc569ea9">mais_forte</a> (char *tipo_atk, char *tipo_def)</td></tr>
-<tr class="memdesc:a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se um tipo atacante dado é mais forte do que um tipo defensor dado.  <br /></td></tr>
-<tr class="separator:a559ee9b7ecb1ab706d1213c5bc569ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e25079af3d53a7ea79c61ff7d53886" id="r_a59e25079af3d53a7ea79c61ff7d53886"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e25079af3d53a7ea79c61ff7d53886">mais_fraco</a> (char *tipo_atk, char *tipo_def)</td></tr>
-<tr class="memdesc:a59e25079af3d53a7ea79c61ff7d53886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se o tipo defensor é mais fraco do que o tipo atacante.  <br /></td></tr>
-<tr class="separator:a59e25079af3d53a7ea79c61ff7d53886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c01964c43128a59f99548b406123994" id="r_a8c01964c43128a59f99548b406123994"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c01964c43128a59f99548b406123994">mais_forte</a> (int forca_atk, int forca_def)</td></tr>
+<tr class="memdesc:a8c01964c43128a59f99548b406123994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se um tipo atacante dado é mais forte do que um tipo defensor dado.  <br /></td></tr>
+<tr class="separator:a8c01964c43128a59f99548b406123994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3bc7789123092a0013ec16ae0f7906d" id="r_ae3bc7789123092a0013ec16ae0f7906d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3bc7789123092a0013ec16ae0f7906d">mais_fraco</a> (int forca_atk, int forca_def)</td></tr>
+<tr class="memdesc:ae3bc7789123092a0013ec16ae0f7906d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determina se o tipo defensor é mais fraco do que o tipo atacante.  <br /></td></tr>
+<tr class="separator:ae3bc7789123092a0013ec16ae0f7906d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac24b76f7fd75715f2ae0a25b748d317e" id="r_ac24b76f7fd75715f2ae0a25b748d317e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac24b76f7fd75715f2ae0a25b748d317e">ataca</a> (<a class="el" href="../../db/d78/struct_t_jogador.html">TJogador</a> *jogadores, int atacante)</td></tr>
 <tr class="memdesc:ac24b76f7fd75715f2ae0a25b748d317e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Realiza um ataque entre dois jogadores.  <br /></td></tr>
 <tr class="separator:ac24b76f7fd75715f2ae0a25b748d317e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,15 +215,12 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" title="Realiza um ataque entre dois jogadores." alt="" coords="5,56,59,83"/>
 <area shape="rect" href="../../d5/d5e/file__utils_8c.html#af5d82f1c793664df60ee078ff38f7365" title="Grava uma cadeia de caracteres em um arquivo." alt="" coords="107,5,205,32"/>
 <area shape="poly" title=" " alt="" coords="58,56,106,36,109,41,60,61"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a559ee9b7ecb1ab706d1213c5bc569ea9" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="115,56,197,83"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a8c01964c43128a59f99548b406123994" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="115,56,197,83"/>
 <area shape="poly" title=" " alt="" coords="59,67,100,67,100,72,59,72"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a59e25079af3d53a7ea79c61ff7d53886" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="114,107,198,133"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ae3bc7789123092a0013ec16ae0f7906d" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="114,107,198,133"/>
 <area shape="poly" title=" " alt="" coords="60,78,109,98,106,103,58,83"/>
-<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="267,5,374,32"/>
-<area shape="poly" title=" " alt="" coords="205,16,251,16,251,21,205,21"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="253,81,388,108"/>
-<area shape="poly" title=" " alt="" coords="197,73,238,79,238,85,196,78"/>
-<area shape="poly" title=" " alt="" coords="198,111,238,105,238,110,199,116"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7" title="Verifica se um arquivo com o nome fornecido existe no sistema." alt="" coords="253,5,360,32"/>
+<area shape="poly" title=" " alt="" coords="205,16,237,16,237,21,205,21"/>
 </map>
 </div>
 <div class="dynheader">
@@ -380,18 +377,11 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/daf/pok__utils_8h_ab9e25c3c8c02354631c5724c052c873d_icgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_ab9e25c3c8c02354631c5724c052c873d_icgraph" alt=""/></div>
 <map name="ad9/daf/pok__utils_8h_ab9e25c3c8c02354631c5724c052c873d_icgraph" id="ad9/daf/pok__utils_8h_ab9e25c3c8c02354631c5724c052c873d_icgraph">
-<area shape="rect" title="Classifica um Pokémon com base no seu tipo." alt="" coords="467,31,602,57"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a559ee9b7ecb1ab706d1213c5bc569ea9" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="336,5,417,32"/>
-<area shape="poly" title=" " alt="" coords="451,33,417,28,418,23,452,28"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#a59e25079af3d53a7ea79c61ff7d53886" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="334,56,419,83"/>
-<area shape="poly" title=" " alt="" coords="452,60,419,65,419,60,451,55"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,31,286,57"/>
-<area shape="poly" title=" " alt="" coords="321,33,287,41,286,36,320,28"/>
-<area shape="rect" href="../../d0/d29/main_8c.html#adda2eb4b03dea25f9bde98ba92bdf2a6" title="Inicia as rodadas da simulação e checa quem venceu." alt="" coords="103,31,185,57"/>
-<area shape="poly" title=" " alt="" coords="218,47,185,47,185,41,218,41"/>
-<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,31,55,57"/>
-<area shape="poly" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
-<area shape="poly" title=" " alt="" coords="319,60,286,52,287,47,320,54"/>
+<area shape="rect" title="Classifica um Pokémon com base no seu tipo." alt="" coords="256,5,391,32"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#adf8d49191a61729cd58c809b5296565d" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="103,5,208,32"/>
+<area shape="poly" title=" " alt="" coords="240,21,209,21,209,16,240,16"/>
+<area shape="rect" href="../../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Função principal do simulador." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
 </map>
 </div>
 
@@ -430,9 +420,11 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/daf/pok__utils_8h_adf8d49191a61729cd58c809b5296565d_cgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_adf8d49191a61729cd58c809b5296565d_cgraph" alt=""/></div>
 <map name="ad9/daf/pok__utils_8h_adf8d49191a61729cd58c809b5296565d_cgraph" id="ad9/daf/pok__utils_8h_adf8d49191a61729cd58c809b5296565d_cgraph">
-<area shape="rect" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="5,5,111,32"/>
-<area shape="rect" href="../../d5/d5e/file__utils_8c.html#ad8129b1c5e92e0eec41dbbddfe99b765" title="Divide uma cadeia de caracteres em um array de palavras." alt="" coords="159,5,246,32"/>
-<area shape="poly" title=" " alt="" coords="111,16,143,16,143,21,111,21"/>
+<area shape="rect" title="Cria uma lista de jogadores a partir de uma cadeia de caracteres." alt="" coords="5,31,111,57"/>
+<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="159,5,294,32"/>
+<area shape="poly" title=" " alt="" coords="111,33,142,29,143,34,112,39"/>
+<area shape="rect" href="../../d5/d5e/file__utils_8c.html#ad8129b1c5e92e0eec41dbbddfe99b765" title="Divide uma cadeia de caracteres em um array de palavras." alt="" coords="183,56,270,83"/>
+<area shape="poly" title=" " alt="" coords="112,49,168,58,167,63,111,55"/>
 </map>
 </div>
 <div class="dynheader">
@@ -448,8 +440,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 
 </div>
 </div>
-<a id="a559ee9b7ecb1ab706d1213c5bc569ea9" name="a559ee9b7ecb1ab706d1213c5bc569ea9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a559ee9b7ecb1ab706d1213c5bc569ea9">&#9670;&#160;</a></span>mais_forte()</h2>
+<a id="a8c01964c43128a59f99548b406123994" name="a8c01964c43128a59f99548b406123994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c01964c43128a59f99548b406123994">&#9670;&#160;</a></span>mais_forte()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,12 +449,12 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">int mais_forte </td>
           <td>(</td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_atk</em>, </span></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>forca_atk</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_def</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>forca_def</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -470,27 +462,17 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <p>Determina se um tipo atacante dado é mais forte do que um tipo defensor dado. </p>
 <dl class="params"><dt>Parâmetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tipo_atk</td><td>O tipo atacante. </td></tr>
-    <tr><td class="paramname">tipo_def</td><td>O tipo defensor.</td></tr>
+    <tr><td class="paramname">forca_atk</td><td>O tipo atacante. </td></tr>
+    <tr><td class="paramname">forca_def</td><td>O tipo defensor.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Retorna</dt><dd>1 se o tipo atacante for mais forte do que o tipo defensor, 0 caso contrário. </dd></dl>
 <div class="dynheader">
-Este é o diagrama das funções utilizadas por essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph" alt=""/></div>
-<map name="ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph" id="ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_cgraph">
-<area shape="rect" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="5,5,87,32"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="135,5,270,32"/>
-<area shape="poly" title=" " alt="" coords="87,16,119,16,119,21,87,21"/>
-</map>
-</div>
-<div class="dynheader">
 Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph" alt=""/></div>
-<map name="ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph" id="ad9/daf/pok__utils_8h_a559ee9b7ecb1ab706d1213c5bc569ea9_icgraph">
+<div class="center"><img src="../../d9/daf/pok__utils_8h_a8c01964c43128a59f99548b406123994_icgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_a8c01964c43128a59f99548b406123994_icgraph" alt=""/></div>
+<map name="ad9/daf/pok__utils_8h_a8c01964c43128a59f99548b406123994_icgraph" id="ad9/daf/pok__utils_8h_a8c01964c43128a59f99548b406123994_icgraph">
 <area shape="rect" title="Determina se um tipo atacante dado é mais forte do que um tipo defensor dado." alt="" coords="334,5,416,32"/>
 <area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,5,286,32"/>
 <area shape="poly" title=" " alt="" coords="319,21,287,21,287,16,319,16"/>
@@ -503,8 +485,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 
 </div>
 </div>
-<a id="a59e25079af3d53a7ea79c61ff7d53886" name="a59e25079af3d53a7ea79c61ff7d53886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59e25079af3d53a7ea79c61ff7d53886">&#9670;&#160;</a></span>mais_fraco()</h2>
+<a id="ae3bc7789123092a0013ec16ae0f7906d" name="ae3bc7789123092a0013ec16ae0f7906d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3bc7789123092a0013ec16ae0f7906d">&#9670;&#160;</a></span>mais_fraco()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,12 +494,12 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">int mais_fraco </td>
           <td>(</td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_atk</em>, </span></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>forca_atk</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>tipo_def</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>forca_def</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -525,27 +507,17 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <p>Determina se o tipo defensor é mais fraco do que o tipo atacante. </p>
 <dl class="params"><dt>Parâmetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tipo_atk</td><td>O tipo atacante. </td></tr>
-    <tr><td class="paramname">tipo_def</td><td>O tipo defensor.</td></tr>
+    <tr><td class="paramname">forca_atk</td><td>O tipo atacante. </td></tr>
+    <tr><td class="paramname">forca_def</td><td>O tipo defensor.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Retorna</dt><dd>1 se o tipo defensor for mais fraco do que o tipo atacante, 0 caso contrário. </dd></dl>
 <div class="dynheader">
-Este é o diagrama das funções utilizadas por essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_cgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_cgraph" alt=""/></div>
-<map name="ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_cgraph" id="ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_cgraph">
-<area shape="rect" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="5,5,90,32"/>
-<area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d" title="Classifica um Pokémon com base no seu tipo." alt="" coords="138,5,273,32"/>
-<area shape="poly" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
-</map>
-</div>
-<div class="dynheader">
 Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_icgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_icgraph" alt=""/></div>
-<map name="ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_icgraph" id="ad9/daf/pok__utils_8h_a59e25079af3d53a7ea79c61ff7d53886_icgraph">
+<div class="center"><img src="../../d9/daf/pok__utils_8h_ae3bc7789123092a0013ec16ae0f7906d_icgraph.png" border="0" usemap="#ad9/daf/pok__utils_8h_ae3bc7789123092a0013ec16ae0f7906d_icgraph" alt=""/></div>
+<map name="ad9/daf/pok__utils_8h_ae3bc7789123092a0013ec16ae0f7906d_icgraph" id="ad9/daf/pok__utils_8h_ae3bc7789123092a0013ec16ae0f7906d_icgraph">
 <area shape="rect" title="Determina se o tipo defensor é mais fraco do que o tipo atacante." alt="" coords="334,5,419,32"/>
 <area shape="rect" href="../../d1/dbe/pok__utils_8c.html#ac24b76f7fd75715f2ae0a25b748d317e" title="Realiza um ataque entre dois jogadores." alt="" coords="233,5,286,32"/>
 <area shape="poly" title=" " alt="" coords="319,21,287,21,287,16,319,16"/>

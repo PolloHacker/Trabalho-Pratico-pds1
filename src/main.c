@@ -38,6 +38,7 @@ char nome_arq_log[36], form_string[300];
  * @param jogadores Array de estruturas do tipo TJogador contendo os jogadores.
  */
 void inicia_jogo(TJogador *jogadores) {
+    // Informamos que o jogo começou.
     grava_arquivo(nome_arq_log, "Jogo iniciado.");
     int atacante = 0;
     
@@ -67,25 +68,39 @@ void inicia_jogo(TJogador *jogadores) {
  * e seus pokemons lidos do arquivo e chama a função `inicia_jogo()`. Após isso, libera a memória alocada.
  */
 int main(int argc, char *argv[]) {
+    // Inicializamos o vetor de jogadores, o vetor que irá receber os dados do arquivo e a variável que receberá o caminho do arquivo.
     TJogador *jogadores;
-    char *data;
+    char *data, user_input[20];
     
     cria_log();
+    /*
+    * Verificamos se um argumento foi passado:
+    * Caso positivo, lemos o argumento como arquivo.
+    * Caso negativo, solicitamos ao utilizador o caminho do arquivo.
+    */
     if (argc == 2) {
         printf("Usando arquivo %s\n", argv[1]);
         data = le_arquivo(argv[1]);
     } else {
-        grava_arquivo(nome_arq_log, "[+]-----------------------------[+]\nNenhum arquivo informado.\nUsando o arquivo 'input.txt'.\nUso: main.exe <arquivo>.txt\n[+]-----------------------------[+]\n");
-        data = le_arquivo("./input/input.txt");
+        printf("Nenhum arquivo informado. Digite o caminho do arquivo: ");
+        scanf("%s", user_input);
+        printf("Usando arquivo %s\n", user_input);
+
+        // Criamos uma string com informações sobre o arquivo que o utilizador informou para ser gravada no arquivo de logs.
+        snprintf(form_string, sizeof(form_string), "[+]-----------------------------[+]\nNenhum arquivo informado.\nUsando o arquivo '%s'.\nUso: tp_pds1.exe <arquivo>.txt\n[+]-----------------------------[+]\n", user_input);
+        grava_arquivo(nome_arq_log, form_string);
+        data = le_arquivo(user_input);
     }
+    // Caso ocorra algum erro ao ler o arquivo, encerramos o programa.
     if (data == NULL) {
         grava_arquivo(nome_arq_log, "[!] Erro ao ler arquivo.");
         exit(1);
     }
-
+    // Imprimimos os dados lidos no arquivo e criamos os jogadores.
     printf("%s\n", data);
     jogadores = cria_jogadores(data);
 
+    // Gravamos nos logs os dados dos jogadores e os pokémons de cada um.
     for (int i = 0; i < 2; i++) {
         snprintf(form_string, sizeof(form_string), "Jogador %d:", i + 1);
         grava_arquivo(nome_arq_log, form_string);
@@ -95,7 +110,10 @@ int main(int argc, char *argv[]) {
         }
     }
 
+    // Chamamos a função que inicia o jogo.
     inicia_jogo(jogadores);
+
+    // Liberamos a memória alocada.
     free(data);
     free(jogadores);
     

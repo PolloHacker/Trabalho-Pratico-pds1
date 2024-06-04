@@ -20,8 +20,8 @@
 
 TJogador * cria_jogadores(char *data);
 int classifica_pokemon(const char *tipo);
-int mais_forte(char *tipo_atk, char * tipo_def);
-int mais_fraco(char *tipo_atk, char * tipo_def);
+int mais_forte(int forca_atk, int forca_def);
+int mais_fraco(int forca_atk, int forca_def);
 void ataca(TJogador *jogadores, int atacante);
 void checa_sobreviventes(TJogador *jogadores, int vencedor);
 void checa_derrotados(TJogador *jogadores);

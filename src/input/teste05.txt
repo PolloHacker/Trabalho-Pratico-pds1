@@ -1,0 +1,13 @@
+5 7
+Golduck 11 18 13 agua
+Geodude 11 23 22 pedra
+Raichu 14 18 21 eletrico
+Rapidash 24 11 24 fogo
+Rhydon 15 11 21 pedra
+Charizard 20 22 19 fogo
+Slowbro 21 16 25 agua
+Magnemite 18 22 20 eletrico
+Dewgong 22 14 22 agua
+Tentacool 14 11 24 agua
+Graveler 17 10 19 pedra
+Marowak 19 22 21 pedra

@@ -1,0 +1,11 @@
+5 5
+Squirtle 15 25 40 agua
+Sandshrew 17 13 28 pedra
+Charmeleon 23 15 24 fogo
+Raichu 19 16 28 eletrico
+Cloyster 59 12 51 gelo
+Charmander 25 12 36 fogo
+Pikachu 25 15 24 eletrico
+Dewgong 17 26 33 gelo
+Wartortle 26 41 19 agua
+Sandslash 62 31 40 pedra

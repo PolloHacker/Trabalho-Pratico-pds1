@@ -8,6 +8,7 @@
   <meta name="generator" content="Doxygen 1.10.0" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Trabalho Prático - PDS1: Trabalho Pratico pds1</title>
+  <link rel="icon" href="pokemon logo - Pesquisa Google - play, Go, pokemon, film, movie, Game, cinema icon.png" type="image/x-icon" />
   <link href="tabs.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="dynsections.js"></script>
@@ -47,6 +48,7 @@
         <table cellspacing="0" cellpadding="0">
           <tbody>
             <tr id="projectrow">
+              <td id="projectlogo"><img alt="Logo" src="pokemon logo - Pesquisa Google - play, Go, pokemon, film, movie, Game, cinema icon.png"  /></td>
               <td id="projectalign">
                 <div id="projectname">Trabalho Prático - PDS1
                 </div>
@@ -120,6 +122,32 @@ $(function(){initNavTree('index.html',''); initResizable(); });
 Descrição</h1>
 <p>Este projeto é um trabalho prático da disciplina de PDS1 (Programação E Desenvolvimento de Software 1) do curso de Ciência de Dados da Universidade Federal de Minas Gerais.</p>
 <p>É um simulador de batalha de Pokemons escrito em C. O usuário pode especificar um arquivo contendo os dados das equipes e o programa irá simular uma batalha entre eles. Este também registrará todos os eventos da batalha em um arquivo.</p>
+<h1><a class="anchor" id="sumário"></a>
+Sumário</h1>
+<ul>
+<li>Trabalho Pratico pds1<ul>
+<li><a class="el" href="#descrição">Descrição</a></li>
+<li><a class="el" href="#sumário">Sumário</a></li>
+<li><a class="el" href="#instalação-e-uso">Instalação e uso</a></li>
+<li><a class="el" href="#descrição-do-algoritmo-e-procedimentos-utilizados">Descrição do algoritmo e procedimentos utilizados</a><ul>
+<li><a class="el" href="#procedimentos">Procedimentos</a></li>
+<li><a class="el" href="#diagramas">Diagramas</a><ul>
+<li><a class="el" href="#main">main</a></li>
+<li><a class="el" href="#inicia_jogo">inicia\_jogo</a></li>
+<li><a class="el" href="#le_arquivo">le\_arquivo</a></li>
+<li><a class="el" href="#divide_linha">divide\_linha</a></li>
+<li><a class="el" href="#cria_jogadores">cria\_jogadores</a></li>
+<li><a class="el" href="#ataca">ataca</a></li>
+<li><a class="el" href="#checa_sobreviventes">checa\_sobreviventes</a></li>
+<li><a class="el" href="#checa_derrotados">checa\_derrotados</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="el" href="#licença">Licença</a></li>
+</ul>
+</li>
+</ul>
 <h1><a class="anchor" id="instalação-e-uso"></a>
 Instalação e uso</h1>
 <p>Para usar este projeto, siga os passos abaixo:</p>
@@ -129,25 +157,80 @@ Instalação e uso</h1>
 </div><!-- fragment --></li>
 <li>Compile o código usando o seu compilador preferido.<ul>
 <li><p class="startli">Usando o compilador GCC</p>
-<div class="fragment"><div class="line">gcc -W -Wall -Werror main.c file_utils.c pok_utils.c -o main</div>
+<div class="fragment"><div class="line">gcc -W -Wall -Werror src/main.c src/file_utils.c src/pok_utils.c -Iinclude -o tp_pds1</div>
 </div><!-- fragment --></li>
 <li><p class="startli">Usando CMake e Makefile</p>
-<p class="startli"><code>bash mkdir build cd build cmake .. make </code></p>
-<p class="startli">Caso a compilação resulte em erro, opte pelo compilador GCC e abra um <em>issue</em> no repositório.</p>
-</li>
+<p class="startli">Caso a compilação resulte em erro, opte pelo compilador GCC e abra um <em>issue</em> no repositório. </p><pre class="fragment">mkdir build 
+cd build
+cmake ..
+make
+</pre></li>
 </ul>
 </li>
 <li><p class="startli">Execute o programa gerado.</p>
 <div class="fragment"><div class="line">./tp_pds1.&lt;extensão&gt; &lt;input_file&gt;.txt</div>
-</div><!-- fragment --><p class="startli">Se nenhum arquivo de entrada for especificado, o programa irá usar o arquivo <code>input.txt</code> como a entrada de dados. A estrutura do arquivo de entrada deve ser a seguinte:</p>
+</div><!-- fragment --><p class="startli">Se nenhum arquivo de entrada for especificado, o programa irá pedir ao usuário um arquivo. <br  />
+</p>
+</li>
+</ol>
+<h1><a class="anchor" id="descrição-do-algoritmo-e-procedimentos-utilizados"></a>
+Descrição do algoritmo e procedimentos utilizados</h1>
+<h2><a class="anchor" id="procedimentos"></a>
+Procedimentos</h2>
+<p>Este projeto foi feito em C, usando a convenção de escrita <a href="https://www.cs.umd.edu/~nelson/classes/resources/cstyleguide/">C Style Guidelines</a>.</p>
+<p>O programa espera a entrada em arquivos do tipo <code>txt</code>, seja pela linha de comando ou por input do usuário em tempo de execução. Os arquivos devem seguir a seguinte formatação:</p>
 <div class="fragment"><div class="line">3 2 <span class="comment">// número de pokemons em cada equipe</span></div>
 <div class="line">Squirtle 10 15 15 agua <span class="comment">// os status de cada pokemon: nome ataque defesa tipo</span></div>
 <div class="line">Vulpix 15 15 15 fogo <span class="comment">// repita para cada pokemon</span></div>
 <div class="line">Onix 5 20 20 pedra</div>
 <div class="line">Golem 20 5 10 pedra</div>
 <div class="line">Charmander 20 15 12 fogo</div>
-</div><!-- fragment --></li>
-</ol>
+</div><!-- fragment --><p>Após o input, o programa lê o arquivo linha por linha, colocando todos os dados em uma mesma string (<code>char *</code>), que será, em outra função, quebrada em palavras, sendo estas armazenadas em um vetor. <br  />
+ Em seguida, as palavras serão usadas para inicializar os jogadores (<code><a class="el" href="db/d78/struct_t_jogador.html" title="Tipo de variável estruturada para os jogadores.">TJogador</a></code>), que possuem:</p>
+<ul>
+<li>um vetor de pokemons (<code><a class="el" href="d7/d10/struct_t_pokemon.html" title="Tipo de variável estruturada para os pokemons.">TPokemon</a> *</code>).</li>
+<li>o número de pokemons do jogador (<code>int</code>)</li>
+<li>o número do pokemon atual (<code>int</code>)</li>
+</ul>
+<p>Por sua vez, os pokemons (<code><a class="el" href="d7/d10/struct_t_pokemon.html" title="Tipo de variável estruturada para os pokemons.">TPokemon</a></code>) possuem:</p>
+<ul>
+<li>nome: nome do pokemon (<code>char *</code>)</li>
+<li>tipo: tipo do pokemon (<code>char *</code>)</li>
+<li>hp: pontos de vida do pokemon (<code>float</code>)</li>
+<li>atk: ataque do pokemon (<code>float</code>)</li>
+<li>def: defesa do pokemon (<code>float</code>)</li>
+</ul>
+<p>Depois da inicialização, os pokemons tomam turnos em pares, ou <em>rounds</em>, para se enfrentarem até um ser derrotado. Quando isso acontece, o contador de pokemon atual do jogador defensor avança em 1. <br  />
+ Esses <em>rounds</em> acontecem até algum dos dois jogadores ficar sem pokemons (contador atual == número de pokemons). <br  />
+ Ao final, os nomes dos pokemons sobreviventes e derrotados são impressos em listas diferentes e o programa é encerrado.</p>
+<h2><a class="anchor" id="diagramas"></a>
+Diagramas</h2>
+<p>Os diagramas foram feitos usando a biblioteca <a href="https://mermaid.js.org/">Mermaid</a>.</p>
+<p>Caso as imagens estejam borradas ou a visualização esteja difícil, é possivel ver os diagramas em <a href="https://mermaid.live/edit">Mermaid Live Editor</a> usando o arquivo <a href="diagramas-mermaid.json">json</a> ou o <a href="diagramas-mermaid-code.txt">txt</a>, caso o editor não consiga ler o json.</p>
+<h3><a class="anchor" id="main"></a>
+main</h3>
+<p><img src="imgs/main.png" alt="diagrama função main" class="inline"/></p>
+<h3><a class="anchor" id="inicia_jogo"></a>
+inicia_jogo</h3>
+<p><img src="imgs/inicia_jogo.png" alt="diagrma função inicia_jogo" class="inline"/></p>
+<h3><a class="anchor" id="le_arquivo"></a>
+le_arquivo</h3>
+<p><img src="imgs/le_arquivo.png" alt="diagrama função le_arquivo" class="inline"/></p>
+<h3><a class="anchor" id="divide_linha"></a>
+divide_linha</h3>
+<p><img src="imgs/divide_linha.png" alt="diagrama função divide_linha" class="inline"/></p>
+<h3><a class="anchor" id="cria_jogadores"></a>
+cria_jogadores</h3>
+<p><img src="imgs/cria_jogadores.png" alt="diagrama função cria_jogadores" class="inline"/></p>
+<h3><a class="anchor" id="ataca"></a>
+ataca</h3>
+<p><img src="imgs/ataca.png" alt="diagrama função ataca" class="inline"/></p>
+<h3><a class="anchor" id="checa_sobreviventes"></a>
+checa_sobreviventes</h3>
+<p><img src="imgs/checa_sobreviventes.png" alt="diagrama função checa_sobreviventes" class="inline"/></p>
+<h3><a class="anchor" id="checa_derrotados"></a>
+checa_derrotados</h3>
+<p><img src="imgs/checa_derrotados.png" alt="diagrama função checa_derrotados" class="inline"/></p>
 <h1><a class="anchor" id="licença"></a>
 Licença</h1>
 <p>Este projeto está licenciado sob [MIT License](LICENSE). </p>

@@ -16,6 +16,8 @@
 #define FILE_UTILS_H
 
 void cria_log();
+int verifica_ponteiro_char(const char * pointer, const char * reason, int err_code, int will_exit);
+void verifica_alocacao_dinamica(void * pointer, const char * reason, int err_code);
 int verifica_arquivo(char *nome_arq);
 int grava_arquivo(char *nome_arq, char *data);
 char * le_arquivo(char *nome_arq);

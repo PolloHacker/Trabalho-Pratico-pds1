@@ -38,14 +38,28 @@ char nome_arq_log[36], form_string[300];
  * @param jogadores Array de estruturas do tipo TJogador contendo os jogadores.
  */
 void inicia_jogo(TJogador *jogadores) {
+    // Checamos os parâmetros passados
+
+    // Se o ponteiro de jogadores for nulo, encerramos o programa.
+    verifica_alocacao_dinamica(jogadores, "jogadores", NULL_POINTER_ERR);
+
+    // Se o número de pokémons de um dos jogadores for 0, encerramos o programa.
+    if (jogadores[0].num_poks == 0 || jogadores[1].num_poks == 0) {
+        grava_arquivo(nome_arq_log, "Erro: um dos jogadores não possui pokémons.");
+        exit(EMPTY_ARRAY_ERR);
+    }
+
     // Informamos que o jogo começou.
     grava_arquivo(nome_arq_log, "Jogo iniciado.");
     int atacante = 0;
-    
+
+    // Enquanto houverem pokemons sobreviventes nos dois times, continuamos a simulação.
     while((jogadores[0].current_pok < jogadores[0].num_poks) && (jogadores[1].current_pok < jogadores[1].num_poks)) {
         ataca(jogadores, atacante);
         atacante = atacante == 0 ? 1 : 0;
     }
+
+    // Checamos quem venceu e gravamos nos logs.
     if (jogadores[0].current_pok >= jogadores[0].num_poks) {
         grava_arquivo(nome_arq_log, "Jogador 2 venceu.");
         printf("Jogador 2 venceu.\n");
@@ -55,9 +69,11 @@ void inicia_jogo(TJogador *jogadores) {
         printf("Jogador 1 venceu.\n");
     }
 
+    // Por fim, checamos os sobreviventes e os derrotados.
     checa_sobreviventes(jogadores, jogadores[0].current_pok < jogadores[0].num_poks ? 0 : 1);
     checa_derrotados(jogadores);
 
+    // Chamamos "pause" pra que o usuário possa ver o resultado final.
     system("pause");
 }
 
@@ -92,10 +108,8 @@ int main(int argc, char *argv[]) {
         data = le_arquivo(user_input);
     }
     // Caso ocorra algum erro ao ler o arquivo, encerramos o programa.
-    if (data == NULL) {
-        grava_arquivo(nome_arq_log, "[!] Erro ao ler arquivo.");
-        exit(1);
-    }
+    verifica_alocacao_dinamica(data, "[!] Erro ao ler arquivo.", FILE_NOT_EXISTS_ERR);
+
     // Imprimimos os dados lidos no arquivo e criamos os jogadores.
     printf("%s\n", data);
     jogadores = cria_jogadores(data);

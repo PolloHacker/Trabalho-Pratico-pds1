@@ -1,0 +1,490 @@
+Jogador 1:
+- Pachirisu: Atk: 15.0	Def: 17.0	Hp: 9.0	Tipo: eletrico
+
+- Ampharos: Atk: 15.0	Def: 14.0	Hp: 11.0	Tipo: agua
+
+- Infernape: Atk: 18.0	Def: 9.0	Hp: 23.0	Tipo: fogo
+
+- Spheal: Atk: 14.0	Def: 18.0	Hp: 18.0	Tipo: gelo
+
+- Rampardos: Atk: 9.0	Def: 18.0	Hp: 22.0	Tipo: pedra
+
+- Lotad: Atk: 14.0	Def: 18.0	Hp: 20.0	Tipo: agua
+
+- Magmortar: Atk: 21.0	Def: 16.0	Hp: 24.0	Tipo: fogo
+
+- Sealeo: Atk: 15.0	Def: 19.0	Hp: 28.0	Tipo: gelo
+
+- Suicune: Atk: 16.0	Def: 15.0	Hp: 25.0	Tipo: agua
+
+- Dugtrio: Atk: 12.0	Def: 26.0	Hp: 24.0	Tipo: pedra
+
+- Charmander: Atk: 18.0	Def: 12.0	Hp: 26.0	Tipo: fogo
+
+Jogador 2:
+- Lombre: Atk: 17.0	Def: 5.0	Hp: 39.0	Tipo: agua
+
+- Heatran: Atk: 19.0	Def: 12.0	Hp: 11.0	Tipo: fogo
+
+- Walrein: Atk: 15.0	Def: 14.0	Hp: 20.0	Tipo: gelo
+
+- Bonsly: Atk: 11.0	Def: 19.0	Hp: 17.0	Tipo: pedra
+
+- Pikachu: Atk: 35.0	Def: 30.0	Hp: 24.0	Tipo: eletrico
+
+Jogo iniciado.
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Lombre do jogador 2 com efeito de Atk 18.0/ Def 5.0. (forte)
+Pokemon Lombre agora tem 26.0 de HP.	Inicial: 39.0
+
+[+] Pokemon Lombre do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 13.6/ Def 17.0. (fraco)
+Pokemon Pachirisu agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Lombre do jogador 2 com efeito de Atk 18.0/ Def 5.0. (forte)
+Pokemon Lombre agora tem 13.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Lombre do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 13.6/ Def 17.0. (fraco)
+Pokemon Pachirisu agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Lombre do jogador 2 com efeito de Atk 18.0/ Def 5.0. (forte)
+Pokemon Lombre agora tem 0.0 de HP.	Inicial: 13.0
+
+[!] Pokemon Lombre do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 19.0/ Def 17.0. (normal)
+Pokemon Pachirisu agora tem 5.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 15.0/ Def 12.0. (normal)
+Pokemon Heatran agora tem 8.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 19.0/ Def 17.0. (normal)
+Pokemon Pachirisu agora tem 3.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 15.0/ Def 12.0. (normal)
+Pokemon Heatran agora tem 5.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 19.0/ Def 17.0. (normal)
+Pokemon Pachirisu agora tem 1.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Pachirisu do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 15.0/ Def 12.0. (normal)
+Pokemon Heatran agora tem 2.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pachirisu do jogador 1 com efeito de Atk 19.0/ Def 17.0. (normal)
+Pokemon Pachirisu agora tem -1.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Pachirisu do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 12.0. (forte)
+Pokemon Heatran agora tem -4.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Heatran do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Ampharos do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Walrein agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Ampharos do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Ampharos agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Ampharos do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 21.6/ Def 14.0. (forte)
+Pokemon Walrein agora tem 2.4 de HP.	Inicial: 10.0
+
+[+] Pokemon Walrein do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 12.0/ Def 9.0. (fraco)
+Pokemon Infernape agora tem 20.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Walrein do jogador 2 com efeito de Atk 21.6/ Def 14.0. (forte)
+Pokemon Walrein agora tem -5.2 de HP.	Inicial: 2.4
+
+[!] Pokemon Walrein do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 18.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 16.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 14.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 12.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 10.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 8.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 6.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 4.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 2.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Infernape do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 18.0/ Def 19.0. (normal)
+Pokemon Bonsly agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Infernape do jogador 1 com efeito de Atk 11.0/ Def 9.0. (normal)
+Pokemon Infernape agora tem 0.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Infernape do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Bonsly do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 8.8/ Def 18.0. (fraco)
+Pokemon Spheal agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Bonsly do jogador 2 com efeito de Atk 16.8/ Def 19.0. (forte)
+Pokemon Bonsly agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Bonsly do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 35.0/ Def 18.0. (normal)
+Pokemon Spheal agora tem -6.0 de HP.	Inicial: 11.0
+
+[!] Pokemon Spheal do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 10.8/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 28.0/ Def 18.0. (fraco)
+Pokemon Rampardos agora tem 12.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 10.8/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 28.0/ Def 18.0. (fraco)
+Pokemon Rampardos agora tem 2.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 10.8/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 28.0/ Def 18.0. (fraco)
+Pokemon Rampardos agora tem -8.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Rampardos do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Lotad do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 11.2/ Def 30.0. (fraco)
+Pokemon Pikachu agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Lotad do jogador 1 com efeito de Atk 42.0/ Def 18.0. (forte)
+Pokemon Lotad agora tem -4.0 de HP.	Inicial: 20.0
+
+[!] Pokemon Lotad do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 21.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 35.0/ Def 16.0. (normal)
+Pokemon Magmortar agora tem 5.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 21.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 35.0/ Def 16.0. (normal)
+Pokemon Magmortar agora tem -14.0 de HP.	Inicial: 5.0
+
+[!] Pokemon Magmortar do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Sealeo do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 15.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Sealeo do jogador 1 com efeito de Atk 35.0/ Def 19.0. (normal)
+Pokemon Sealeo agora tem 12.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Sealeo do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 15.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Sealeo do jogador 1 com efeito de Atk 35.0/ Def 19.0. (normal)
+Pokemon Sealeo agora tem -4.0 de HP.	Inicial: 12.0
+
+[!] Pokemon Sealeo do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 12.8/ Def 30.0. (fraco)
+Pokemon Pikachu agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 42.0/ Def 15.0. (forte)
+Pokemon Suicune agora tem -2.0 de HP.	Inicial: 25.0
+
+[!] Pokemon Suicune do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 22.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 20.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 18.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 16.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 14.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 12.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 10.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 8.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 6.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 4.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 2.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 14.4/ Def 30.0. (forte)
+Pokemon Pikachu agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 28.0/ Def 26.0. (fraco)
+Pokemon Dugtrio agora tem 0.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Dugtrio do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 18.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 35.0/ Def 12.0. (normal)
+Pokemon Charmander agora tem 3.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Pikachu do jogador 2 com efeito de Atk 18.0/ Def 30.0. (normal)
+Pokemon Pikachu agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Pikachu do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 35.0/ Def 12.0. (normal)
+Pokemon Charmander agora tem -20.0 de HP.	Inicial: 3.0
+
+[!] Pokemon Charmander do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+Jogador 2 venceu.
+
+
+[!]----------Fim de jogo----------[!]
+Checando sobreviventes...
+
+[+] Pokemon Pikachu do jogador 2 sobreviveu.
+
+
+Checando derrotados...
+
+[+] Pokemon Pachirisu do jogador 1 foi derrotado.
+
+[+] Pokemon Ampharos do jogador 1 foi derrotado.
+
+[+] Pokemon Infernape do jogador 1 foi derrotado.
+
+[+] Pokemon Spheal do jogador 1 foi derrotado.
+
+[+] Pokemon Rampardos do jogador 1 foi derrotado.
+
+[+] Pokemon Lotad do jogador 1 foi derrotado.
+
+[+] Pokemon Magmortar do jogador 1 foi derrotado.
+
+[+] Pokemon Sealeo do jogador 1 foi derrotado.
+
+[+] Pokemon Suicune do jogador 1 foi derrotado.
+
+[+] Pokemon Dugtrio do jogador 1 foi derrotado.
+
+[+] Pokemon Charmander do jogador 1 foi derrotado.
+
+[+] Pokemon Lombre do jogador 2 foi derrotado.
+
+[+] Pokemon Heatran do jogador 2 foi derrotado.
+
+[+] Pokemon Walrein do jogador 2 foi derrotado.
+
+[+] Pokemon Bonsly do jogador 2 foi derrotado.
+

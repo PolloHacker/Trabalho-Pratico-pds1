@@ -23,11 +23,27 @@
 #ifndef DEFINITIONS_H
 #define DEFINITIONS_H
 
-#define FILE_NOT_EXISTS_ERR 1
-#define FILE_OP_ERR 2
-#define MEM_ERR 3
 
-#define UNKNOWN_TYPE 5
+// Definição de saídas
+#define DO_EXIT 1
+#define DONT_EXIT 0
+
+// Definição de tipos de pokemons
+#define UNKNOWN_TYPE 7
+
+// Definição de códigos de erro
+#define FILE_NOT_EXISTS_ERR 11
+#define FILE_OP_ERR 12
+#define INVALID_FILENAME_ERR 13
+#define EMPTY_FILE_ERR 14
+#define WRITE_ERR 15
+#define MEM_ERR 21
+#define NULL_POINTER_ERR 22
+#define EMPTY_ARRAY_ERR 23
+#define INVALID_POK_NUM_ERR 31
+#define MORE_POKS_THAN_EXPECTED_ERR 32
+#define INVALID_POK_ATTR_ERR 33
+#define ATACKER_INDX_ERR 34
 
 
 /**

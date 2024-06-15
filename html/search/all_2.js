@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['checa_5fderrotados_0',['checa_derrotados',['../d1/dbe/pok__utils_8c.html#a60c8fbf17ddc1f12e8a635032d366b5f',1,'checa_derrotados(TJogador *jogadores):&#160;pok_utils.c'],['../d9/daf/pok__utils_8h.html#a60c8fbf17ddc1f12e8a635032d366b5f',1,'checa_derrotados(TJogador *jogadores):&#160;pok_utils.c']]],
-  ['checa_5fsobreviventes_1',['checa_sobreviventes',['../d1/dbe/pok__utils_8c.html#a8880ef9ec1fb57f91032e86506ec32f4',1,'checa_sobreviventes(TJogador *jogadores, int vencedor):&#160;pok_utils.c'],['../d9/daf/pok__utils_8h.html#a8880ef9ec1fb57f91032e86506ec32f4',1,'checa_sobreviventes(TJogador *jogadores, int vencedor):&#160;pok_utils.c']]],
-  ['classifica_5fpokemon_2',['classifica_pokemon',['../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d',1,'classifica_pokemon(const char *tipo):&#160;pok_utils.c'],['../d9/daf/pok__utils_8h.html#ab9e25c3c8c02354631c5724c052c873d',1,'classifica_pokemon(const char *tipo):&#160;pok_utils.c']]],
-  ['cria_5fjogadores_3',['cria_jogadores',['../d1/dbe/pok__utils_8c.html#adf8d49191a61729cd58c809b5296565d',1,'cria_jogadores(char *data):&#160;pok_utils.c'],['../d9/daf/pok__utils_8h.html#adf8d49191a61729cd58c809b5296565d',1,'cria_jogadores(char *data):&#160;pok_utils.c']]],
-  ['cria_5flog_4',['cria_log',['../d5/d5e/file__utils_8c.html#add2c6ee1e623c81052716bbedc2e5c13',1,'cria_log():&#160;file_utils.c'],['../d1/d9d/file__utils_8h.html#add2c6ee1e623c81052716bbedc2e5c13',1,'cria_log():&#160;file_utils.c']]]
+  ['3_201_3a_20número_20de_20pokemons_20negativo_20ou_20nulo_0',['Erro 3.1: Número de pokemons negativo ou nulo',['../db/dda/md__testes_01e_01erros.html#erro-31-número-de-pokemons-negativo-ou-nulo',1,'']]],
+  ['3_202_3a_20número_20de_20pokemon_20atual_20maior_20do_20que_20o_20total_1',['Erro 3.2: Número de pokemon atual maior do que o total',['../db/dda/md__testes_01e_01erros.html#erro-32-número-de-pokemon-atual-maior-do-que-o-total',1,'']]],
+  ['3_203_3a_20atributos_20de_20pokemon_20inválidos_2',['Erro 3.3: Atributos de pokemon inválidos',['../db/dda/md__testes_01e_01erros.html#erro-33-atributos-de-pokemon-inválidos',1,'']]],
+  ['3_204_3a_20índice_20de_20atacante_20inválido_3',['Erro 3.4: Índice de atacante inválido',['../db/dda/md__testes_01e_01erros.html#erro-34-índice-de-atacante-inválido',1,'']]],
+  ['3_3a_20atributos_20de_20pokemon_20inválidos_4',['Erro 3.3: Atributos de pokemon inválidos',['../db/dda/md__testes_01e_01erros.html#erro-33-atributos-de-pokemon-inválidos',1,'']]],
+  ['3_3a_20nome_20de_20arquivo_20inválido_5',['Erro 1.3: Nome de arquivo inválido',['../db/dda/md__testes_01e_01erros.html#erro-13-nome-de-arquivo-inválido',1,'']]],
+  ['3_3a_20passagem_20de_20array_20de_20jogadores_20vazio_6',['Erro 2.3: Passagem de array de jogadores vazio',['../db/dda/md__testes_01e_01erros.html#erro-23-passagem-de-array-de-jogadores-vazio',1,'']]]
 ];

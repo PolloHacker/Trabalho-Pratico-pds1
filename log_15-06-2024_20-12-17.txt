@@ -1,0 +1,2216 @@
+Jogador 1:
+- Squirtle: Atk: 10.0	Def: 15.0	Hp: 15.0	Tipo: agua
+
+- Bastiodon: Atk: 18.0	Def: 30.0	Hp: 38.0	Tipo: pedra
+
+- Shinx: Atk: 13.0	Def: 15.0	Hp: 28.0	Tipo: eletrico
+
+- Chimchar: Atk: 12.0	Def: 14.0	Hp: 9.0	Tipo: fogo
+
+- Cloyster: Atk: 20.0	Def: 25.0	Hp: 35.0	Tipo: gelo
+
+- Blastoise: Atk: 15.0	Def: 20.0	Hp: 25.0	Tipo: agua
+
+- Onix: Atk: 18.0	Def: 25.0	Hp: 35.0	Tipo: pedra
+
+- Pikachu: Atk: 15.0	Def: 10.0	Hp: 30.0	Tipo: eletrico
+
+- Remoraid: Atk: 12.0	Def: 14.0	Hp: 18.0	Tipo: agua
+
+- Spheal: Atk: 15.0	Def: 18.0	Hp: 22.0	Tipo: gelo
+
+- Suicune: Atk: 25.0	Def: 22.0	Hp: 40.0	Tipo: agua
+
+- Rampardos: Atk: 25.0	Def: 20.0	Hp: 40.0	Tipo: pedra
+
+- Lombre: Atk: 15.0	Def: 14.0	Hp: 20.0	Tipo: agua
+
+- Charmander: Atk: 20.0	Def: 15.0	Hp: 25.0	Tipo: fogo
+
+- Ninetales: Atk: 25.0	Def: 20.0	Hp: 35.0	Tipo: fogo
+
+- Wartortle: Atk: 15.0	Def: 22.0	Hp: 28.0	Tipo: agua
+
+- Chimchar: Atk: 20.0	Def: 16.0	Hp: 25.0	Tipo: fogo
+
+- Magneton: Atk: 20.0	Def: 18.0	Hp: 32.0	Tipo: eletrico
+
+- Dugtrio: Atk: 15.0	Def: 22.0	Hp: 30.0	Tipo: pedra
+
+- Magmortar: Atk: 25.0	Def: 20.0	Hp: 32.0	Tipo: fogo
+
+- Sealeo: Atk: 20.0	Def: 25.0	Hp: 30.0	Tipo: gelo
+
+- Bonsly: Atk: 12.0	Def: 18.0	Hp: 25.0	Tipo: pedra
+
+- Raichu: Atk: 18.0	Def: 12.0	Hp: 35.0	Tipo: eletrico
+
+- Lapras: Atk: 25.0	Def: 30.0	Hp: 40.0	Tipo: gelo
+
+- Luxio: Atk: 16.0	Def: 18.0	Hp: 30.0	Tipo: eletrico
+
+- Piloswine: Atk: 18.0	Def: 22.0	Hp: 28.0	Tipo: gelo
+
+Jogador 2:
+- Snorunt: Atk: 16.0	Def: 18.0	Hp: 25.0	Tipo: gelo
+
+- Octillery: Atk: 20.0	Def: 18.0	Hp: 28.0	Tipo: agua
+
+- Glalie: Atk: 22.0	Def: 20.0	Hp: 30.0	Tipo: gelo
+
+- Heatran: Atk: 28.0	Def: 24.0	Hp: 38.0	Tipo: fogo
+
+- Diglett: Atk: 12.0	Def: 20.0	Hp: 28.0	Tipo: pedra
+
+- Psyduck: Atk: 14.0	Def: 16.0	Hp: 22.0	Tipo: agua
+
+- Pachirisu: Atk: 15.0	Def: 12.0	Hp: 30.0	Tipo: eletrico
+
+- Lotad: Atk: 10.0	Def: 12.0	Hp: 15.0	Tipo: agua
+
+- Cranidos: Atk: 20.0	Def: 18.0	Hp: 32.0	Tipo: pedra
+
+- Vulpix: Atk: 18.0	Def: 15.0	Hp: 22.0	Tipo: fogo
+
+- Golduck: Atk: 18.0	Def: 20.0	Hp: 30.0	Tipo: agua
+
+- Wartortle: Atk: 12.0	Def: 18.0	Hp: 20.0	Tipo: agua
+
+- Growlithe: Atk: 11.0	Def: 13.0	Hp: 14.0	Tipo: fogo
+
+- Dewgong: Atk: 18.0	Def: 22.0	Hp: 30.0	Tipo: gelo
+
+- Shieldon: Atk: 15.0	Def: 25.0	Hp: 30.0	Tipo: pedra
+
+- Magnemite: Atk: 12.0	Def: 20.0	Hp: 28.0	Tipo: eletrico
+
+- Monferno: Atk: 22.0	Def: 18.0	Hp: 28.0	Tipo: fogo
+
+- Ninetales: Atk: 19.0	Def: 17.0	Hp: 27.0	Tipo: fogo
+
+- Voltorb: Atk: 14.0	Def: 16.0	Hp: 25.0	Tipo: eletrico
+
+- Charmeleon: Atk: 22.0	Def: 18.0	Hp: 30.0	Tipo: fogo
+
+- Swinub: Atk: 12.0	Def: 14.0	Hp: 20.0	Tipo: gelo
+
+- Luxray: Atk: 22.0	Def: 20.0	Hp: 35.0	Tipo: eletrico
+
+- Infernape: Atk: 30.0	Def: 22.0	Hp: 35.0	Tipo: fogo
+
+- Magnezone: Atk: 25.0	Def: 22.0	Hp: 40.0	Tipo: eletrico
+
+- Growlithe: Atk: 15.0	Def: 12.0	Hp: 18.0	Tipo: fogo
+
+- Blastoise: Atk: 20.0	Def: 25.0	Hp: 40.0	Tipo: agua
+
+Jogo iniciado.
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Squirtle do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 10.0/ Def 18.0. (normal)
+Pokemon Snorunt agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Squirtle do jogador 1 com efeito de Atk 16.0/ Def 15.0. (normal)
+Pokemon Squirtle agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Squirtle do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 37.0 de HP.	Inicial: 38.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 36.0 de HP.	Inicial: 37.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 35.0 de HP.	Inicial: 36.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 34.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 33.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 32.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 31.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Snorunt do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 19.2/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Snorunt do jogador 2 com efeito de Atk 14.4/ Def 18.0. (fraco)
+Pokemon Snorunt agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Snorunt do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Octillery do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 20.0/ Def 30.0. (normal)
+Pokemon Bastiodon agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Bastiodon do jogador 1 atacou pokemon Octillery do jogador 2 com efeito de Atk 18.0/ Def 18.0. (normal)
+Pokemon Octillery agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Octillery do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Bastiodon do jogador 1 com efeito de Atk 26.4/ Def 30.0. (forte)
+Pokemon Bastiodon agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Bastiodon do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Shinx do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 13.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Shinx do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Shinx agora tem 21.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Shinx do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 13.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Shinx do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Shinx agora tem 14.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Shinx do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 13.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Shinx do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Shinx agora tem 7.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Shinx do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 13.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Shinx do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Shinx agora tem 0.0 de HP.	Inicial: 7.0
+
+[!] Pokemon Shinx do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 14.4/ Def 20.0. (forte)
+Pokemon Glalie agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 17.6/ Def 14.0. (fraco)
+Pokemon Chimchar agora tem 5.4 de HP.	Inicial: 9.0
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 14.4/ Def 20.0. (forte)
+Pokemon Glalie agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 17.6/ Def 14.0. (fraco)
+Pokemon Chimchar agora tem 1.8 de HP.	Inicial: 5.4
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 14.4/ Def 20.0. (forte)
+Pokemon Glalie agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 17.6/ Def 14.0. (fraco)
+Pokemon Chimchar agora tem -1.8 de HP.	Inicial: 1.8
+
+[!] Pokemon Chimchar do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 34.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 33.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 32.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 31.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Glalie do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 22.0/ Def 25.0. (normal)
+Pokemon Cloyster agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Glalie do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Glalie agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Glalie do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 33.6/ Def 25.0. (forte)
+Pokemon Cloyster agora tem 4.4 de HP.	Inicial: 13.0
+
+[+] Pokemon Cloyster do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 16.0/ Def 24.0. (fraco)
+Pokemon Heatran agora tem 37.0 de HP.	Inicial: 38.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Cloyster do jogador 1 com efeito de Atk 33.6/ Def 25.0. (forte)
+Pokemon Cloyster agora tem -4.2 de HP.	Inicial: 4.4
+
+[!] Pokemon Cloyster do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 36.0 de HP.	Inicial: 37.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 22.6 de HP.	Inicial: 25.0
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 35.0 de HP.	Inicial: 36.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 20.2 de HP.	Inicial: 22.6
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 34.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 17.8 de HP.	Inicial: 20.2
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 33.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 15.4 de HP.	Inicial: 17.8
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 32.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 13.0 de HP.	Inicial: 15.4
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 31.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 10.6 de HP.	Inicial: 13.0
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 8.2 de HP.	Inicial: 10.6
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 5.8 de HP.	Inicial: 8.2
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 3.4 de HP.	Inicial: 5.8
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem 1.0 de HP.	Inicial: 3.4
+
+[+] Pokemon Blastoise do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Blastoise do jogador 1 com efeito de Atk 22.4/ Def 20.0. (fraco)
+Pokemon Blastoise agora tem -1.4 de HP.	Inicial: 1.0
+
+[!] Pokemon Blastoise do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 32.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 29.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 26.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 23.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 20.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 17.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 14.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 11.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 8.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 5.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem 2.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Onix do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 18.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Onix do jogador 1 com efeito de Atk 28.0/ Def 25.0. (normal)
+Pokemon Onix agora tem -1.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Onix do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Pikachu do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 15.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pikachu do jogador 1 com efeito de Atk 28.0/ Def 10.0. (normal)
+Pokemon Pikachu agora tem 12.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Pikachu do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 15.0/ Def 24.0. (normal)
+Pokemon Heatran agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Pikachu do jogador 1 com efeito de Atk 28.0/ Def 10.0. (normal)
+Pokemon Pikachu agora tem -6.0 de HP.	Inicial: 12.0
+
+[!] Pokemon Pikachu do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Remoraid do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 14.4/ Def 24.0. (forte)
+Pokemon Heatran agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Remoraid do jogador 1 com efeito de Atk 22.4/ Def 14.0. (fraco)
+Pokemon Remoraid agora tem 9.6 de HP.	Inicial: 18.0
+
+[+] Pokemon Remoraid do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 14.4/ Def 24.0. (forte)
+Pokemon Heatran agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Remoraid do jogador 1 com efeito de Atk 22.4/ Def 14.0. (fraco)
+Pokemon Remoraid agora tem 1.2 de HP.	Inicial: 9.6
+
+[+] Pokemon Remoraid do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 14.4/ Def 24.0. (forte)
+Pokemon Heatran agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Remoraid do jogador 1 com efeito de Atk 22.4/ Def 14.0. (fraco)
+Pokemon Remoraid agora tem -7.2 de HP.	Inicial: 1.2
+
+[!] Pokemon Remoraid do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 12.0/ Def 24.0. (fraco)
+Pokemon Heatran agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 33.6/ Def 18.0. (forte)
+Pokemon Spheal agora tem 6.4 de HP.	Inicial: 22.0
+
+[+] Pokemon Spheal do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 12.0/ Def 24.0. (fraco)
+Pokemon Heatran agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Spheal do jogador 1 com efeito de Atk 33.6/ Def 18.0. (forte)
+Pokemon Spheal agora tem -9.2 de HP.	Inicial: 6.4
+
+[!] Pokemon Spheal do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 30.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem 1.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Heatran do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 22.4/ Def 22.0. (fraco)
+Pokemon Suicune agora tem 39.6 de HP.	Inicial: 40.0
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Heatran do jogador 2 com efeito de Atk 30.0/ Def 24.0. (forte)
+Pokemon Heatran agora tem -5.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Heatran do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 38.6 de HP.	Inicial: 39.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem 23.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 37.6 de HP.	Inicial: 38.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem 18.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 36.6 de HP.	Inicial: 37.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem 13.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 35.6 de HP.	Inicial: 36.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem 8.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 34.6 de HP.	Inicial: 35.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem 3.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Diglett do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 33.6 de HP.	Inicial: 34.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Diglett do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Diglett agora tem -2.0 de HP.	Inicial: 3.0
+
+[!] Pokemon Diglett do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Psyduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 14.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 32.6 de HP.	Inicial: 33.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Psyduck do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Psyduck agora tem 13.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Psyduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 14.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 31.6 de HP.	Inicial: 32.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Psyduck do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Psyduck agora tem 4.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Psyduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 14.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 30.6 de HP.	Inicial: 31.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Psyduck do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Psyduck agora tem -5.0 de HP.	Inicial: 4.0
+
+[!] Pokemon Psyduck do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Pachirisu do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (forte)
+Pokemon Suicune agora tem 29.6 de HP.	Inicial: 30.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Pachirisu do jogador 2 com efeito de Atk 20.0/ Def 12.0. (fraco)
+Pokemon Pachirisu agora tem 22.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Pachirisu do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (forte)
+Pokemon Suicune agora tem 28.6 de HP.	Inicial: 29.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Pachirisu do jogador 2 com efeito de Atk 20.0/ Def 12.0. (fraco)
+Pokemon Pachirisu agora tem 14.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Pachirisu do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (forte)
+Pokemon Suicune agora tem 27.6 de HP.	Inicial: 28.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Pachirisu do jogador 2 com efeito de Atk 20.0/ Def 12.0. (fraco)
+Pokemon Pachirisu agora tem 6.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Pachirisu do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (forte)
+Pokemon Suicune agora tem 26.6 de HP.	Inicial: 27.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Pachirisu do jogador 2 com efeito de Atk 20.0/ Def 12.0. (fraco)
+Pokemon Pachirisu agora tem -2.0 de HP.	Inicial: 6.0
+
+[!] Pokemon Pachirisu do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Lotad do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 10.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 25.6 de HP.	Inicial: 26.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Lotad do jogador 2 com efeito de Atk 25.0/ Def 12.0. (normal)
+Pokemon Lotad agora tem 2.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Lotad do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 10.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 24.6 de HP.	Inicial: 25.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Lotad do jogador 2 com efeito de Atk 25.0/ Def 12.0. (normal)
+Pokemon Lotad agora tem -11.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Lotad do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Cranidos do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 23.6 de HP.	Inicial: 24.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Cranidos do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Cranidos agora tem 25.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Cranidos do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 22.6 de HP.	Inicial: 23.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Cranidos do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Cranidos agora tem 18.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Cranidos do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 21.6 de HP.	Inicial: 22.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Cranidos do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Cranidos agora tem 11.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Cranidos do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 20.6 de HP.	Inicial: 21.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Cranidos do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Cranidos agora tem 4.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Cranidos do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 19.6 de HP.	Inicial: 20.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Cranidos do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Cranidos agora tem -3.0 de HP.	Inicial: 4.0
+
+[!] Pokemon Cranidos do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Vulpix do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 14.4/ Def 22.0. (fraco)
+Pokemon Suicune agora tem 18.6 de HP.	Inicial: 19.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Vulpix do jogador 2 com efeito de Atk 30.0/ Def 15.0. (forte)
+Pokemon Vulpix agora tem 7.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Vulpix do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 14.4/ Def 22.0. (fraco)
+Pokemon Suicune agora tem 17.6 de HP.	Inicial: 18.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Vulpix do jogador 2 com efeito de Atk 30.0/ Def 15.0. (forte)
+Pokemon Vulpix agora tem -8.0 de HP.	Inicial: 7.0
+
+[!] Pokemon Vulpix do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 16.6 de HP.	Inicial: 17.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 25.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 15.6 de HP.	Inicial: 16.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 20.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 14.6 de HP.	Inicial: 15.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 15.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 13.6 de HP.	Inicial: 14.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 10.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 12.6 de HP.	Inicial: 13.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 5.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Golduck do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 11.6 de HP.	Inicial: 12.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Golduck do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Golduck agora tem 0.0 de HP.	Inicial: 5.0
+
+[!] Pokemon Golduck do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Wartortle do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 10.6 de HP.	Inicial: 11.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Wartortle do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Wartortle agora tem 13.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Wartortle do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 9.6 de HP.	Inicial: 10.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Wartortle do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Wartortle agora tem 6.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Wartortle do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 8.6 de HP.	Inicial: 9.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Wartortle do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Wartortle agora tem -1.0 de HP.	Inicial: 6.0
+
+[!] Pokemon Wartortle do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Growlithe do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 8.8/ Def 22.0. (fraco)
+Pokemon Suicune agora tem 7.6 de HP.	Inicial: 8.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Growlithe do jogador 2 com efeito de Atk 30.0/ Def 13.0. (forte)
+Pokemon Growlithe agora tem -3.0 de HP.	Inicial: 14.0
+
+[!] Pokemon Growlithe do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 6.6 de HP.	Inicial: 7.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 27.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 5.6 de HP.	Inicial: 6.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 24.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 4.6 de HP.	Inicial: 5.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 21.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 3.6 de HP.	Inicial: 4.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 18.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 2.6 de HP.	Inicial: 3.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 15.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 1.6 de HP.	Inicial: 2.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 12.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem 0.6 de HP.	Inicial: 1.6
+
+[+] Pokemon Suicune do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Dewgong agora tem 9.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Suicune do jogador 1 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Suicune agora tem -0.4 de HP.	Inicial: 0.6
+
+[!] Pokemon Suicune do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 38.4 de HP.	Inicial: 40.0
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 36.8 de HP.	Inicial: 38.4
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 35.2 de HP.	Inicial: 36.8
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 33.6 de HP.	Inicial: 35.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 32.0 de HP.	Inicial: 33.6
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 30.4 de HP.	Inicial: 32.0
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 28.8 de HP.	Inicial: 30.4
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Dewgong do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 21.6/ Def 20.0. (forte)
+Pokemon Rampardos agora tem 27.2 de HP.	Inicial: 28.8
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Dewgong do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Dewgong agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Dewgong do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 26.2 de HP.	Inicial: 27.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 25.2 de HP.	Inicial: 26.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 24.2 de HP.	Inicial: 25.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 23.2 de HP.	Inicial: 24.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 22.2 de HP.	Inicial: 23.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 21.2 de HP.	Inicial: 22.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 20.2 de HP.	Inicial: 21.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 19.2 de HP.	Inicial: 20.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 18.2 de HP.	Inicial: 19.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 17.2 de HP.	Inicial: 18.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 16.2 de HP.	Inicial: 17.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 15.2 de HP.	Inicial: 16.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 14.2 de HP.	Inicial: 15.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 13.2 de HP.	Inicial: 14.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 12.2 de HP.	Inicial: 13.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 11.2 de HP.	Inicial: 12.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 10.2 de HP.	Inicial: 11.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 9.2 de HP.	Inicial: 10.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 8.2 de HP.	Inicial: 9.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 7.2 de HP.	Inicial: 8.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 6.2 de HP.	Inicial: 7.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 5.2 de HP.	Inicial: 6.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 4.2 de HP.	Inicial: 5.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 3.2 de HP.	Inicial: 4.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 2.2 de HP.	Inicial: 3.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 1.2 de HP.	Inicial: 2.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem 0.2 de HP.	Inicial: 1.2
+
+[+] Pokemon Rampardos do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 25.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Rampardos do jogador 1 com efeito de Atk 15.0/ Def 20.0. (normal)
+Pokemon Rampardos agora tem -0.8 de HP.	Inicial: 0.2
+
+[!] Pokemon Rampardos do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 15.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Lombre agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 15.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Shieldon do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 15.0/ Def 14.0. (normal)
+Pokemon Lombre agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Shieldon do jogador 2 com efeito de Atk 15.0/ Def 25.0. (normal)
+Pokemon Shieldon agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Shieldon do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 17.6 de HP.	Inicial: 18.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 17.2 de HP.	Inicial: 17.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 16.8 de HP.	Inicial: 17.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 16.4 de HP.	Inicial: 16.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 16.0 de HP.	Inicial: 16.4
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 23.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 15.6 de HP.	Inicial: 16.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 22.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 15.2 de HP.	Inicial: 15.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 21.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 14.8 de HP.	Inicial: 15.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 20.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 14.4 de HP.	Inicial: 14.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 19.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 14.0 de HP.	Inicial: 14.4
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 18.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 13.6 de HP.	Inicial: 14.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 17.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 13.2 de HP.	Inicial: 13.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 16.0 de HP.	Inicial: 17.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 12.8 de HP.	Inicial: 13.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 12.4 de HP.	Inicial: 12.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 12.0 de HP.	Inicial: 12.4
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 11.6 de HP.	Inicial: 12.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 11.2 de HP.	Inicial: 11.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 10.8 de HP.	Inicial: 11.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 10.4 de HP.	Inicial: 10.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 10.0 de HP.	Inicial: 10.4
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 9.6 de HP.	Inicial: 10.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 9.2 de HP.	Inicial: 9.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 8.8 de HP.	Inicial: 9.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 8.4 de HP.	Inicial: 8.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 8.0 de HP.	Inicial: 8.4
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 7.6 de HP.	Inicial: 8.0
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 7.2 de HP.	Inicial: 7.6
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Magnemite do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 14.4/ Def 14.0. (forte)
+Pokemon Lombre agora tem 6.8 de HP.	Inicial: 7.2
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Magnemite do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Magnemite agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Magnemite do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 17.6/ Def 14.0. (fraco)
+Pokemon Lombre agora tem 3.2 de HP.	Inicial: 6.8
+
+[+] Pokemon Lombre do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 18.0/ Def 18.0. (forte)
+Pokemon Monferno agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Lombre do jogador 1 com efeito de Atk 17.6/ Def 14.0. (fraco)
+Pokemon Lombre agora tem -0.4 de HP.	Inicial: 3.2
+
+[!] Pokemon Lombre do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 20.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 25.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Charmander agora tem 18.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 20.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 23.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Charmander agora tem 11.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 20.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 21.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Charmander agora tem 4.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Charmander do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 20.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 19.0 de HP.	Inicial: 21.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Charmander do jogador 1 com efeito de Atk 22.0/ Def 15.0. (normal)
+Pokemon Charmander agora tem -3.0 de HP.	Inicial: 4.0
+
+[!] Pokemon Charmander do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 12.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 33.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem 5.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Monferno do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 31.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Monferno do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Monferno agora tem -2.0 de HP.	Inicial: 5.0
+
+[!] Pokemon Monferno do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Ninetales do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 19.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Ninetales do jogador 2 com efeito de Atk 25.0/ Def 17.0. (normal)
+Pokemon Ninetales agora tem 19.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Ninetales do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 19.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Ninetales do jogador 2 com efeito de Atk 25.0/ Def 17.0. (normal)
+Pokemon Ninetales agora tem 11.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Ninetales do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 19.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Ninetales do jogador 2 com efeito de Atk 25.0/ Def 17.0. (normal)
+Pokemon Ninetales agora tem 3.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Ninetales do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 19.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Ninetales do jogador 2 com efeito de Atk 25.0/ Def 17.0. (normal)
+Pokemon Ninetales agora tem -5.0 de HP.	Inicial: 3.0
+
+[!] Pokemon Ninetales do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Voltorb do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 14.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Voltorb do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Voltorb agora tem 16.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Voltorb do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 14.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 25.0 de HP.	Inicial: 26.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Voltorb do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Voltorb agora tem 7.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Voltorb do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 14.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 24.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Voltorb do jogador 2 com efeito de Atk 25.0/ Def 16.0. (normal)
+Pokemon Voltorb agora tem -2.0 de HP.	Inicial: 7.0
+
+[!] Pokemon Voltorb do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Charmeleon do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 22.0 de HP.	Inicial: 24.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Charmeleon do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Charmeleon agora tem 23.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Charmeleon do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 20.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Charmeleon do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Charmeleon agora tem 16.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Charmeleon do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 18.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Charmeleon do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Charmeleon agora tem 9.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Charmeleon do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 16.0 de HP.	Inicial: 18.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Charmeleon do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Charmeleon agora tem 2.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Charmeleon do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 14.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Charmeleon do jogador 2 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Charmeleon agora tem -5.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Charmeleon do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Swinub do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 9.6/ Def 20.0. (fraco)
+Pokemon Ninetales agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Swinub do jogador 2 com efeito de Atk 30.0/ Def 14.0. (forte)
+Pokemon Swinub agora tem 4.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Swinub do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 9.6/ Def 20.0. (fraco)
+Pokemon Ninetales agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Swinub do jogador 2 com efeito de Atk 30.0/ Def 14.0. (forte)
+Pokemon Swinub agora tem -12.0 de HP.	Inicial: 4.0
+
+[!] Pokemon Swinub do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 10.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 30.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 8.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 25.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 6.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 20.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 4.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 15.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 2.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Ninetales do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 25.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 10.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Ninetales do jogador 1 com efeito de Atk 22.0/ Def 20.0. (normal)
+Pokemon Ninetales agora tem 0.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Ninetales do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 23.6 de HP.	Inicial: 28.0
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 19.2 de HP.	Inicial: 23.6
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 14.8 de HP.	Inicial: 19.2
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 10.4 de HP.	Inicial: 14.8
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 6.0 de HP.	Inicial: 10.4
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem 1.6 de HP.	Inicial: 6.0
+
+[+] Pokemon Wartortle do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 12.0/ Def 20.0. (fraco)
+Pokemon Luxray agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Wartortle do jogador 1 com efeito de Atk 26.4/ Def 22.0. (forte)
+Pokemon Wartortle agora tem -2.8 de HP.	Inicial: 1.6
+
+[!] Pokemon Wartortle do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 22.0/ Def 16.0. (normal)
+Pokemon Chimchar agora tem 19.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Luxray do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 22.0/ Def 16.0. (normal)
+Pokemon Chimchar agora tem 13.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Chimchar do jogador 1 atacou pokemon Luxray do jogador 2 com efeito de Atk 20.0/ Def 20.0. (normal)
+Pokemon Luxray agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Luxray do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Chimchar do jogador 1 com efeito de Atk 30.0/ Def 16.0. (normal)
+Pokemon Chimchar agora tem -1.0 de HP.	Inicial: 13.0
+
+[!] Pokemon Chimchar do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Magneton do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 34.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magneton do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Magneton agora tem 20.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Magneton do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 33.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magneton do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Magneton agora tem 8.0 de HP.	Inicial: 20.0
+
+[+] Pokemon Magneton do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 32.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magneton do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Magneton agora tem -4.0 de HP.	Inicial: 8.0
+
+[!] Pokemon Magneton do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 15.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 31.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 30.0/ Def 22.0. (normal)
+Pokemon Dugtrio agora tem 22.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 15.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 30.0/ Def 22.0. (normal)
+Pokemon Dugtrio agora tem 14.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 15.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 30.0/ Def 22.0. (normal)
+Pokemon Dugtrio agora tem 6.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Dugtrio do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 15.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Dugtrio do jogador 1 com efeito de Atk 30.0/ Def 22.0. (normal)
+Pokemon Dugtrio agora tem -2.0 de HP.	Inicial: 6.0
+
+[!] Pokemon Dugtrio do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 25.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 30.0/ Def 20.0. (normal)
+Pokemon Magmortar agora tem 22.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 22.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 30.0/ Def 20.0. (normal)
+Pokemon Magmortar agora tem 12.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 19.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 30.0/ Def 20.0. (normal)
+Pokemon Magmortar agora tem 2.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Magmortar do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 16.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Magmortar do jogador 1 com efeito de Atk 30.0/ Def 20.0. (normal)
+Pokemon Magmortar agora tem -8.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Magmortar do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Sealeo do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 16.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 15.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Sealeo do jogador 1 com efeito de Atk 36.0/ Def 25.0. (forte)
+Pokemon Sealeo agora tem 19.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Sealeo do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 16.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 14.0 de HP.	Inicial: 15.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Sealeo do jogador 1 com efeito de Atk 36.0/ Def 25.0. (forte)
+Pokemon Sealeo agora tem 8.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Sealeo do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 16.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 13.0 de HP.	Inicial: 14.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Sealeo do jogador 1 com efeito de Atk 36.0/ Def 25.0. (forte)
+Pokemon Sealeo agora tem -3.0 de HP.	Inicial: 8.0
+
+[!] Pokemon Sealeo do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Bonsly do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 12.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Bonsly do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Bonsly agora tem 13.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Bonsly do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 11.0 de HP.	Inicial: 12.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Bonsly do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Bonsly agora tem 1.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Bonsly do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 12.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 10.0 de HP.	Inicial: 11.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Bonsly do jogador 1 com efeito de Atk 30.0/ Def 18.0. (normal)
+Pokemon Bonsly agora tem -11.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Bonsly do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Raichu do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 9.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Raichu do jogador 1 com efeito de Atk 30.0/ Def 12.0. (normal)
+Pokemon Raichu agora tem 17.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Raichu do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 8.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Raichu do jogador 1 com efeito de Atk 30.0/ Def 12.0. (normal)
+Pokemon Raichu agora tem -1.0 de HP.	Inicial: 17.0
+
+[!] Pokemon Raichu do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 7.0 de HP.	Inicial: 8.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 34.0 de HP.	Inicial: 40.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 6.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 28.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 5.0 de HP.	Inicial: 6.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 22.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 4.0 de HP.	Inicial: 5.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 16.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 3.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 10.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 2.0 de HP.	Inicial: 3.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem 4.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Lapras do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 20.0/ Def 22.0. (fraco)
+Pokemon Infernape agora tem 1.0 de HP.	Inicial: 2.0
+
+[+] Pokemon Infernape do jogador 2 atacou pokemon Lapras do jogador 1 com efeito de Atk 36.0/ Def 30.0. (forte)
+Pokemon Lapras agora tem -2.0 de HP.	Inicial: 4.0
+
+[!] Pokemon Lapras do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Luxio do jogador 1 atacou pokemon Infernape do jogador 2 com efeito de Atk 16.0/ Def 22.0. (normal)
+Pokemon Infernape agora tem 0.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Infernape do jogador 2 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Luxio do jogador 1 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Luxio agora tem 23.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Luxio do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 16.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 39.0 de HP.	Inicial: 40.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Luxio do jogador 1 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Luxio agora tem 16.0 de HP.	Inicial: 23.0
+
+[+] Pokemon Luxio do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 16.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 38.0 de HP.	Inicial: 39.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Luxio do jogador 1 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Luxio agora tem 9.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Luxio do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 16.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 37.0 de HP.	Inicial: 38.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Luxio do jogador 1 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Luxio agora tem 2.0 de HP.	Inicial: 9.0
+
+[+] Pokemon Luxio do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 16.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 36.0 de HP.	Inicial: 37.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Luxio do jogador 1 com efeito de Atk 25.0/ Def 18.0. (normal)
+Pokemon Luxio agora tem -5.0 de HP.	Inicial: 2.0
+
+[!] Pokemon Luxio do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 35.0 de HP.	Inicial: 36.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 25.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 34.0 de HP.	Inicial: 35.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 22.0 de HP.	Inicial: 25.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 33.0 de HP.	Inicial: 34.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 19.0 de HP.	Inicial: 22.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 32.0 de HP.	Inicial: 33.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 16.0 de HP.	Inicial: 19.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 31.0 de HP.	Inicial: 32.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 13.0 de HP.	Inicial: 16.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 30.0 de HP.	Inicial: 31.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 10.0 de HP.	Inicial: 13.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 29.0 de HP.	Inicial: 30.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 7.0 de HP.	Inicial: 10.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 28.0 de HP.	Inicial: 29.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 4.0 de HP.	Inicial: 7.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 27.0 de HP.	Inicial: 28.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem 1.0 de HP.	Inicial: 4.0
+
+[+] Pokemon Piloswine do jogador 1 atacou pokemon Magnezone do jogador 2 com efeito de Atk 18.0/ Def 22.0. (normal)
+Pokemon Magnezone agora tem 26.0 de HP.	Inicial: 27.0
+
+[+] Pokemon Magnezone do jogador 2 atacou pokemon Piloswine do jogador 1 com efeito de Atk 25.0/ Def 22.0. (normal)
+Pokemon Piloswine agora tem -2.0 de HP.	Inicial: 1.0
+
+[!] Pokemon Piloswine do jogador 1 perdeu.
+
+[+]----------Fim de round----------[+]
+
+Jogador 2 venceu.
+
+
+[!]----------Fim de jogo----------[!]
+Checando sobreviventes...
+
+[+] Pokemon Magnezone do jogador 2 sobreviveu.
+
+[+] Pokemon Growlithe do jogador 2 sobreviveu.
+
+[+] Pokemon Blastoise do jogador 2 sobreviveu.
+
+
+Checando derrotados...
+
+[+] Pokemon Squirtle do jogador 1 foi derrotado.
+
+[+] Pokemon Bastiodon do jogador 1 foi derrotado.
+
+[+] Pokemon Shinx do jogador 1 foi derrotado.
+
+[+] Pokemon Chimchar do jogador 1 foi derrotado.
+
+[+] Pokemon Cloyster do jogador 1 foi derrotado.
+
+[+] Pokemon Blastoise do jogador 1 foi derrotado.
+
+[+] Pokemon Onix do jogador 1 foi derrotado.
+
+[+] Pokemon Pikachu do jogador 1 foi derrotado.
+
+[+] Pokemon Remoraid do jogador 1 foi derrotado.
+
+[+] Pokemon Spheal do jogador 1 foi derrotado.
+
+[+] Pokemon Suicune do jogador 1 foi derrotado.
+
+[+] Pokemon Rampardos do jogador 1 foi derrotado.
+
+[+] Pokemon Lombre do jogador 1 foi derrotado.
+
+[+] Pokemon Charmander do jogador 1 foi derrotado.
+
+[+] Pokemon Ninetales do jogador 1 foi derrotado.
+
+[+] Pokemon Wartortle do jogador 1 foi derrotado.
+
+[+] Pokemon Chimchar do jogador 1 foi derrotado.
+
+[+] Pokemon Magneton do jogador 1 foi derrotado.
+
+[+] Pokemon Dugtrio do jogador 1 foi derrotado.
+
+[+] Pokemon Magmortar do jogador 1 foi derrotado.
+
+[+] Pokemon Sealeo do jogador 1 foi derrotado.
+
+[+] Pokemon Bonsly do jogador 1 foi derrotado.
+
+[+] Pokemon Raichu do jogador 1 foi derrotado.
+
+[+] Pokemon Lapras do jogador 1 foi derrotado.
+
+[+] Pokemon Luxio do jogador 1 foi derrotado.
+
+[+] Pokemon Piloswine do jogador 1 foi derrotado.
+
+[+] Pokemon Snorunt do jogador 2 foi derrotado.
+
+[+] Pokemon Octillery do jogador 2 foi derrotado.
+
+[+] Pokemon Glalie do jogador 2 foi derrotado.
+
+[+] Pokemon Heatran do jogador 2 foi derrotado.
+
+[+] Pokemon Diglett do jogador 2 foi derrotado.
+
+[+] Pokemon Psyduck do jogador 2 foi derrotado.
+
+[+] Pokemon Pachirisu do jogador 2 foi derrotado.
+
+[+] Pokemon Lotad do jogador 2 foi derrotado.
+
+[+] Pokemon Cranidos do jogador 2 foi derrotado.
+
+[+] Pokemon Vulpix do jogador 2 foi derrotado.
+
+[+] Pokemon Golduck do jogador 2 foi derrotado.
+
+[+] Pokemon Wartortle do jogador 2 foi derrotado.
+
+[+] Pokemon Growlithe do jogador 2 foi derrotado.
+
+[+] Pokemon Dewgong do jogador 2 foi derrotado.
+
+[+] Pokemon Shieldon do jogador 2 foi derrotado.
+
+[+] Pokemon Magnemite do jogador 2 foi derrotado.
+
+[+] Pokemon Monferno do jogador 2 foi derrotado.
+
+[+] Pokemon Ninetales do jogador 2 foi derrotado.
+
+[+] Pokemon Voltorb do jogador 2 foi derrotado.
+
+[+] Pokemon Charmeleon do jogador 2 foi derrotado.
+
+[+] Pokemon Swinub do jogador 2 foi derrotado.
+
+[+] Pokemon Luxray do jogador 2 foi derrotado.
+
+[+] Pokemon Infernape do jogador 2 foi derrotado.
+

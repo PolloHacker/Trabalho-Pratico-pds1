@@ -1,0 +1,453 @@
+<!-- HTML header for doxygen 1.10.0-->
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="generator" content="Doxygen 1.10.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trabalho Prático - PDS1: Testes e erros</title>
+  <link rel="icon" href="../../pokemon logo - Pesquisa Google - play, Go, pokemon, film, movie, Game, cinema icon.png" type="image/x-icon" />
+  <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../../jquery.js"></script>
+  <script type="text/javascript" src="../../dynsections.js"></script>
+  <script type="text/javascript" src="../../clipboard.js"></script>
+  <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+  <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+  <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+  <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeParagraphLink.init()
+  </script>
+  <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+  <script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+  </script>
+</head>
+<body>
+    <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr id="projectrow">
+              <td id="projectlogo"><img alt="Logo" src="../../pokemon logo - Pesquisa Google - play, Go, pokemon, film, movie, Game, cinema icon.png"  /></td>
+              <td id="projectalign">
+                <div id="projectname">Trabalho Prático - PDS1
+                </div>
+                <div id="projectbrief">Este projeto é um simulador de batalha</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('db/dda/md__testes_01e_01erros.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Testes e erros</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="testes-e-erros"></a> </p>
+<h1><a class="anchor" id="sumário-1"></a>
+Sumário</h1>
+<ul>
+<li><a class="el" href="#testes-e-erros">Testes e erros</a><ul>
+<li><a class="el" href="../../index.html#sumário">Sumário</a></li>
+<li><a class="el" href="#testes">Testes</a><ul>
+<li><a class="el" href="#mainc">Main.c</a><ul>
+<li><a class="el" href="../../index.html#main">main</a></li>
+<li><a class="el" href="../../index.html#inicia_jogo">inicia\_Jogo</a></li>
+</ul>
+</li>
+<li><a class="el" href="#file_utilsc">File\_utils.c</a><ul>
+<li><a class="el" href="#cria_log">cria\_log</a></li>
+<li><a class="el" href="#verifica_arquivo">verifica\_arquivo</a></li>
+<li><a class="el" href="#grava_arquivo">grava\_arquivo</a></li>
+<li><a class="el" href="../../index.html#le_arquivo">le\_arquivo</a></li>
+<li><a class="el" href="../../index.html#divide_linha">divide\_linha</a></li>
+</ul>
+</li>
+<li><a class="el" href="#pok_utilsc">Pok\_utils.c</a><ul>
+<li><a class="el" href="#classifica_pokemon">classifica\_pokemon</a></li>
+<li><a class="el" href="../../index.html#cria_jogadores">cria\_jogadores</a></li>
+<li><a class="el" href="#mais_forte">mais\_forte</a></li>
+<li><a class="el" href="#mais_fraco">mais\_fraco</a></li>
+<li><a class="el" href="../../index.html#ataca">ataca</a></li>
+<li><a class="el" href="../../index.html#checa_sobreviventes">checa\_sobreviventes</a></li>
+<li><a class="el" href="../../index.html#checa_derrotados">checa\_derrotados</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="el" href="#erros-encontrados">Erros encontrados</a><ul>
+<li><a class="el" href="#segmentation-fault">Segmentation fault</a></li>
+<li><a class="el" href="#erro-de-tipagem-de-pokemons">Erro de tipagem de pokemons</a></li>
+</ul>
+</li>
+<li><a class="el" href="#código-de-erros">Código de erros</a><ul>
+<li><a class="el" href="#erros-de-arquivos">Erros de arquivos</a><ul>
+<li><a class="el" href="#erro-11-abertura-de-um-arquivo-inexistente">Erro 1.1: Abertura de um arquivo inexistente</a></li>
+<li><a class="el" href="#erro-12-abertura-inválida-de-um-arquivo-para-gravação">Erro 1.2: Abertura inválida de um arquivo para gravação</a></li>
+<li><a class="el" href="#erro-13-nome-de-arquivo-inválido">Erro 1.3: Nome de arquivo inválido</a></li>
+<li><a class="el" href="#erro-14-arquivo-vazio">Erro 1.4: Arquivo vazio</a></li>
+<li><a class="el" href="#erro-15-erro-de-escrita">Erro 1.5: Erro de escrita</a></li>
+</ul>
+</li>
+<li><a class="el" href="#erros-de-ponteiro-e-memória">Erros de ponteiro e memória</a><ul>
+<li><a class="el" href="#erro-21-erro-de-alocação-de-memória">Erro 2.1: Erro de alocação de memória</a></li>
+<li><a class="el" href="#erro-22-passagem-de-array-de-jogadores-nulo">Erro 2.2: Passagem de array de jogadores nulo</a></li>
+<li><a class="el" href="#erro-23-passagem-de-array-de-jogadores-vazio">Erro 2.3: Passagem de array de jogadores vazio</a></li>
+</ul>
+</li>
+<li><a class="el" href="#erros-de-dados">Erros de dados</a><ul>
+<li><a class="el" href="#erro-31-número-de-pokemons-negativo-ou-nulo">Erro 3.1: Número de pokemons negativo ou nulo</a></li>
+<li><a class="el" href="#erro-32-número-de-pokemon-atual-maior-do-que-o-total">Erro 3.2: Número de pokemon atual maior do que o total</a></li>
+<li><a class="el" href="#erro-33-atributos-de-pokemon-inválidos">Erro 3.3: Atributos de pokemon inválidos</a></li>
+<li><a class="el" href="#erro-34-índice-de-atacante-inválido">Erro 3.4: Índice de atacante inválido</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="testes"></a>
+Testes</h1>
+<p>A testagem do programa foi feita usando os casos de teste fornecidos junto ao enunciado. Os mesmos se encontram na pasta <code>src/input</code>.</p>
+<p>Além desses testes, todas as funções foram testadas individualmente, de modo a garantir uma execução plena.</p>
+<h2><a class="anchor" id="mainc"></a>
+Main.c</h2>
+<h3><a class="anchor" id="main-1"></a>
+main</h3>
+<ul>
+<li>Testar se a função funciona sem argumentos da linha de comando ✅</li>
+<li>Testar se a função funciona com argumentos inválidos ✅</li>
+<li>Testar se a função funciona com argumentos da linha de comando ✅</li>
+</ul>
+<h3><a class="anchor" id="inicia_jogo-1"></a>
+inicia_Jogo</h3>
+<ul>
+<li>Testar se a função funciona com um ponteiro nulo ✅</li>
+<li>Testar se a função funciona com um array vazio ✅</li>
+<li>Testar se a função funciona com um array preenchido ✅</li>
+</ul>
+<h2><a class="anchor" id="file_utilsc"></a>
+File_utils.c</h2>
+<h3><a class="anchor" id="cria_log"></a>
+cria_log</h3>
+<ul>
+<li>Testar se a função consegue criar o arquivo de log ✅</li>
+</ul>
+<h3><a class="anchor" id="verifica_arquivo"></a>
+verifica_arquivo</h3>
+<ul>
+<li>Testar se a função funciona com um arquivo inexistente ✅</li>
+<li>Testar se a função funciona com um nome de arquivo vazio ou nulo ✅</li>
+<li>Testar se a função funciona com um arquivo existente ✅</li>
+</ul>
+<h3><a class="anchor" id="grava_arquivo"></a>
+grava_arquivo</h3>
+<ul>
+<li>Testar se a função funciona com dados vazios ou nulos ✅</li>
+<li>Testar se a função funciona com nome de arquivo inválido ✅</li>
+<li>Testar se a função consegue contornar possíveis erros de escrita ✅</li>
+</ul>
+<h3><a class="anchor" id="le_arquivo-1"></a>
+le_arquivo</h3>
+<ul>
+<li>Testar se a função lê corretamente um arquivo ✅</li>
+<li>Testar se a função funciona com um arquivo vazio ou inexistente ✅</li>
+<li>Testar se a função funciona com um nome de arquivo nulo ou vazio ✅</li>
+</ul>
+<h3><a class="anchor" id="divide_linha-1"></a>
+divide_linha</h3>
+<ul>
+<li>Testar se a função divide corretamente uma linha com múltiplas palavras ✅</li>
+<li>Testar se a função divide corretamente uma linha com apenas uma palavra ✅</li>
+<li>Testar se a função funciona com uma linha vazia ou nula ✅</li>
+</ul>
+<h2><a class="anchor" id="pok_utilsc"></a>
+Pok_utils.c</h2>
+<h3><a class="anchor" id="classifica_pokemon"></a>
+classifica_pokemon</h3>
+<ul>
+<li>Testar a função com um tipo nulo ou vazio ✅</li>
+<li>Testar a função com um tipo inválido ✅</li>
+<li>Testar a função com um tipo válido ✅</li>
+</ul>
+<h3><a class="anchor" id="cria_jogadores-1"></a>
+cria_jogadores</h3>
+<ul>
+<li>Testar a função com dados vazios ou nulos ✅</li>
+<li>Testar a função com dados inválidos ✅</li>
+<li>Testar a função com dados válidos ✅</li>
+</ul>
+<h3><a class="anchor" id="mais_forte"></a>
+mais_forte</h3>
+<ul>
+<li>Testar a função quando o atacante é mais forte ✅</li>
+<li>Testar a função quando o defensor é mais forte ✅</li>
+<li>Testar a função quando ambos possuem a mesma força ✅</li>
+</ul>
+<h3><a class="anchor" id="mais_fraco"></a>
+mais_fraco</h3>
+<ul>
+<li>Testar a função quando o atacante é mais forte ✅</li>
+<li>Testar a função quando o defensor é mais forte ✅</li>
+<li>Testar a função quando ambos possuem a mesma força ✅</li>
+</ul>
+<h3><a class="anchor" id="ataca-1"></a>
+ataca</h3>
+<ul>
+<li>Testar a função com array nulo ✅</li>
+<li>Testar a função com um índice de atacante inválido ✅</li>
+<li>Testar a função com dados válidos ✅</li>
+</ul>
+<h3><a class="anchor" id="checa_sobreviventes-1"></a>
+checa_sobreviventes</h3>
+<ul>
+<li>Testar a função com array nulo ✅</li>
+<li>Testar a função com um índice de vencedor inválido ✅</li>
+<li>Testar a função com dados válidos ✅</li>
+</ul>
+<h3><a class="anchor" id="checa_derrotados-1"></a>
+checa_derrotados</h3>
+<ul>
+<li>Testar a função com array nulo ✅</li>
+<li>Testar a função com dados válidos ✅</li>
+</ul>
+<h1><a class="anchor" id="erros-encontrados"></a>
+Erros encontrados</h1>
+<h2><a class="anchor" id="segmentation-fault"></a>
+Segmentation fault</h2>
+<p><b>Descrição:</b> É um erro <b>muito</b> comum quando se trabalha com alocação dinâmica e ponteiros. Ocorre quando o programa:</p>
+<ul>
+<li>Tenta alocar memória indisponível</li>
+<li>Tenta acessar um endereço inválido</li>
+</ul>
+<p><b>Correção:</b> Verificar as operações de alocação, liberação e manipulação de memória.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">char</span> * s1;</div>
+<div class="line"><span class="keywordtype">int</span> tam;</div>
+<div class="line">scanf(<span class="stringliteral">&quot;%d&quot;</span>, &amp;tam);</div>
+<div class="line">s1 = (<span class="keywordtype">char</span> *) malloc(tam * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
+<div class="line"><span class="comment">// verificação</span></div>
+<div class="line"><span class="keywordflow">if</span> (s1 == NULL) {</div>
+<div class="line">    printf(<span class="stringliteral">&quot;Erro ao alocar memória\n&quot;</span>);</div>
+<div class="line">    <span class="keywordflow">return</span>;</div>
+<div class="line">}</div>
+<div class="line"><span class="comment">// alguma operação</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// liberar memória</span></div>
+<div class="line">free(s1);</div>
+</div><!-- fragment --><h2><a class="anchor" id="erro-de-tipagem-de-pokemons"></a>
+Erro de tipagem de pokemons</h2>
+<p><b>Descrição:</b> Foi um erro oriundo da ordem em que as operações foram realizadas ao criar e definir os parâmetros de cada pokemon.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">char</span> ** palavras = <a class="code hl_function" href="../../d5/d5e/file__utils_8c.html#ad8129b1c5e92e0eec41dbbddfe99b765">divide_linha</a>(line);</div>
+<div class="line"><span class="comment">// Definimos o número do pokemon que estamos criando.</span></div>
+<div class="line">j = j &gt;= jogadores[player].num_poks ? 0 : j;</div>
+<div class="line"><span class="comment">// Definimos o jogador que estamos criando.</span></div>
+<div class="line">player = i &lt;= jogadores[0].num_poks ? 0 : 1;       </div>
+<div class="line"> </div>
+<div class="line">jogadores[player].poks[j].nome = malloc(strlen(palavras[0]) + 1);</div>
+<div class="line">jogadores[player].poks[j].tipo = malloc(strlen(palavras[4]) + 1);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">/*</span></div>
+<div class="line"><span class="comment">* Em vez de usar &quot;palavras[4]&quot;, que seria o campo com o tipo, </span></div>
+<div class="line"><span class="comment">* usei o campo tipo da struct pokemon, que ainda não havia sido inicializada.</span></div>
+<div class="line"><span class="comment">*</span></div>
+<div class="line"><span class="comment">* jogadores[player].poks[j].tipo_int = classifica_pokemon(jogadores[player].poks[j].tipo);</span></div>
+<div class="line"><span class="comment">*/</span></div>
+<div class="line"> </div>
+<div class="line">jogadores[player].poks[j].tipo_int = <a class="code hl_function" href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d">classifica_pokemon</a>(palavras[4]);</div>
+<div class="line"> </div>
+<div class="line">strcpy(jogadores[player].poks[j].nome, palavras[0]);</div>
+<div class="line"> </div>
+<div class="line">jogadores[player].poks[j].atk = atof(palavras[1]);</div>
+<div class="line">jogadores[player].poks[j].def = atof(palavras[2]);</div>
+<div class="line">jogadores[player].poks[j].hp = atof(palavras[3]);</div>
+<div class="line"> </div>
+<div class="line">strcpy(jogadores[player].poks[j].tipo, palavras[4]);</div>
+<div class="ttc" id="afile__utils_8c_html_ad8129b1c5e92e0eec41dbbddfe99b765"><div class="ttname"><a href="../../d5/d5e/file__utils_8c.html#ad8129b1c5e92e0eec41dbbddfe99b765">divide_linha</a></div><div class="ttdeci">char ** divide_linha(char *line)</div><div class="ttdoc">Divide uma cadeia de caracteres em um array de palavras.</div><div class="ttdef"><b>Definição</b> file_utils.c:281</div></div>
+<div class="ttc" id="apok__utils_8c_html_ab9e25c3c8c02354631c5724c052c873d"><div class="ttname"><a href="../../d1/dbe/pok__utils_8c.html#ab9e25c3c8c02354631c5724c052c873d">classifica_pokemon</a></div><div class="ttdeci">int classifica_pokemon(const char *tipo)</div><div class="ttdoc">Classifica um Pokémon com base no seu tipo.</div><div class="ttdef"><b>Definição</b> pok_utils.c:48</div></div>
+</div><!-- fragment --><p><b>Correção:</b> Bastou substituir <code>jogadores[player].poks[j].tipo</code> por <code>palavras[4]</code>.</p>
+<h1><a class="anchor" id="código-de-erros"></a>
+Código de erros</h1>
+<h2><a class="anchor" id="erros-de-arquivos"></a>
+Erros de arquivos</h2>
+<h3><a class="anchor" id="erro-11-abertura-de-um-arquivo-inexistente"></a>
+Erro 1.1: Abertura de um arquivo inexistente</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta abrir um arquivo que não existe.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o usuário especifica um arquivo que não existe, ou quando o programa tenta abrir um arquivo que não pode acessar.</li>
+<li><b>Saída:</b> Arquivo <code>nome_arq</code> inexistente.</li>
+<li><b>Código de retorno:</b> 11</li>
+</ul>
+<h3><a class="anchor" id="erro-12-abertura-inválida-de-um-arquivo-para-gravação"></a>
+Erro 1.2: Abertura inválida de um arquivo para gravação</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta abrir um arquivo que não pode ser aberto.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o usuário especifica um arquivo que não pode ser aberto, ou qválida ou insuficiente</li>
+<li><b>Saída:</b> Erro ao abrir arquivo <code>nome_arq</code>.</li>
+<li><b>Código de retorno:</b> 12</li>
+</ul>
+<h3><a class="anchor" id="erro-13-nome-de-arquivo-inválido"></a>
+Erro 1.3: Nome de arquivo inválido</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta abrir um arquivo que não pode ser aberto.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o usuário especifica um arquivo que não pode ser aberto, ou qválida ou insuficiente</li>
+<li><b>Saída:</b> Nome de arquivo inválido (vazio ou nulo).</li>
+<li><b>Código de retorno:</b> 13</li>
+</ul>
+<h3><a class="anchor" id="erro-14-arquivo-vazio"></a>
+Erro 1.4: Arquivo vazio</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta abrir um arquivo que não pode ser aberto.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o usuário especifica um arquivo que não pode ser aberto, ou qválida ou insuficiente</li>
+<li><b>Saída:</b> O arquivo está vazio.</li>
+<li><b>Código de retorno:</b> 14</li>
+</ul>
+<h3><a class="anchor" id="erro-15-erro-de-escrita"></a>
+Erro 1.5: Erro de escrita</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta abrir um arquivo que não pode ser aberto.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o usuário especifica um arquivo que não pode ser aberto, ou qválida ou insuficiente</li>
+<li><b>Saída:</b> Erro ao gravar dados no arquivo <code>nome_arq</code>.</li>
+<li><b>Código de retorno:</b> 15</li>
+</ul>
+<hr  />
+<h2><a class="anchor" id="erros-de-ponteiro-e-memória"></a>
+Erros de ponteiro e memória</h2>
+<h3><a class="anchor" id="erro-21-erro-de-alocação-de-memória"></a>
+Erro 2.1: Erro de alocação de memória</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa fica sem memória disponível para alocar ou tenta alocar em memória inacessível.</li>
+<li><b>Motivo:</b> Pode ocorrer, por exemplo, quando o programa tenta alocar grandes quantidades de memória, quando tenta sobreescrever memória que não foi disponibilizada ou quando falta memória na máquina.</li>
+<li><b>Saída:</b> Erro ao alocar memória.</li>
+<li><b>Código de retorno:</b> 21</li>
+</ul>
+<h3><a class="anchor" id="erro-22-passagem-de-array-de-jogadores-nulo"></a>
+Erro 2.2: Passagem de array de jogadores nulo</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta trabalhar sobre um array de jogadores nulo.</li>
+<li><b>Saída:</b> Erro: jogadores é um ponteiro nulo.</li>
+<li><b>Código de retorno:</b> 22</li>
+</ul>
+<h3><a class="anchor" id="erro-23-passagem-de-array-de-jogadores-vazio"></a>
+Erro 2.3: Passagem de array de jogadores vazio</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta trabalhar sobre um array de jogadores vazio.</li>
+<li><b>Saída:</b> Erro: um dos jogadores não possui pokémons.</li>
+<li><b>Código de retorno:</b> 23</li>
+</ul>
+<hr  />
+<h2><a class="anchor" id="erros-de-dados"></a>
+Erros de dados</h2>
+<h3><a class="anchor" id="erro-31-número-de-pokemons-negativo-ou-nulo"></a>
+Erro 3.1: Número de pokemons negativo ou nulo</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o programa tenta criar os pokemons com base em um arquivo informado com dados negativos ou inválidos.</li>
+<li><b>Saída:</b> Erro: número de pokémons inválido.</li>
+<li><b>Código de retorno:</b> 31</li>
+</ul>
+<h3><a class="anchor" id="erro-32-número-de-pokemon-atual-maior-do-que-o-total"></a>
+Erro 3.2: Número de pokemon atual maior do que o total</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o índice do pokemon atual é maior do que o total de pokemons do jogador.</li>
+<li><b>Saída:</b> Erro: número de pokémons insuficiente.</li>
+<li><b>Código de retorno:</b> 32</li>
+</ul>
+<h3><a class="anchor" id="erro-33-atributos-de-pokemon-inválidos"></a>
+Erro 3.3: Atributos de pokemon inválidos</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando algum atributo de um pokemon é negativo ou nulo.</li>
+<li><b>Saída:</b> Erro: atributos de pokémon inválidos.</li>
+<li><b>Código de retorno:</b> 33</li>
+</ul>
+<h3><a class="anchor" id="erro-34-índice-de-atacante-inválido"></a>
+Erro 3.4: Índice de atacante inválido</h3>
+<ul>
+<li><b>Descrição:</b> Este erro ocorre quando o índice do jogador atacente é diferente de <code>0</code> ou <code>1</code></li>
+<li><b>Saída:</b> Erro: índice de jogador inválido.</li>
+<li><b>Código de retorno:</b> 34 </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

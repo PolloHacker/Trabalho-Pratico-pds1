@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['verifica_5farquivo_0',['verifica_arquivo',['../d5/d5e/file__utils_8c.html#a38de9037b428f8d2730ec591338a5ea7',1,'verifica_arquivo(char *nome_arq):&#160;file_utils.c'],['../d1/d9d/file__utils_8h.html#a38de9037b428f8d2730ec591338a5ea7',1,'verifica_arquivo(char *nome_arq):&#160;file_utils.c']]]
+  ['jogadores_20nulo_0',['Erro 2.2: Passagem de array de jogadores nulo',['../db/dda/md__testes_01e_01erros.html#erro-22-passagem-de-array-de-jogadores-nulo',1,'']]],
+  ['jogadores_20vazio_1',['Erro 2.3: Passagem de array de jogadores vazio',['../db/dda/md__testes_01e_01erros.html#erro-23-passagem-de-array-de-jogadores-vazio',1,'']]]
 ];

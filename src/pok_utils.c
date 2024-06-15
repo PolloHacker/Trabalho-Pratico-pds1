@@ -46,6 +46,10 @@
  *         - 5: Tipo Desconhecido
  */
 int classifica_pokemon(const char *tipo) {
+    /* Verificamos se o tipo é nulo ou vazio.
+    Caso seja, retornamos o valor `UNKNOWN_TYPE`. */
+    verifica_ponteiro_char(tipo, "tipo", UNKNOWN_TYPE, DONT_EXIT);
+
     // Criamos um array imutável de strings contendo os tipos de pokémons.
     const char *tipos[] = {"eletrico", "agua", "fogo", "gelo", "pedra"};
 
@@ -79,13 +83,14 @@ int classifica_pokemon(const char *tipo) {
  * 
  */
 TJogador * cria_jogadores(char *data) {
+    // Verificamos se a cadeia de caracteres é nula ou vazia.
+    verifica_ponteiro_char(data, "Erro: a cadeia de caracteres está vazia.\n", EMPTY_ARRAY_ERR, DO_EXIT);
+
     // Alocamos dinamicamente um array de jogadores para armazenar os jogadores.
     TJogador * jogadores = (TJogador *) malloc(sizeof(TJogador) * 2);
     // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-    if (jogadores == NULL) {
-        printf("Erro ao alocar memória.\n");
-        exit(MEM_ERR);
-    }
+    verifica_alocacao_dinamica(jogadores, "Erro ao alocar memória.\n", MEM_ERR);
+
     // Criamos ponteiros para as linhas da cadeia de caracteres.
     char *token, *line;
     // Inicializamos os contadores e o jogador que está sendo criado.
@@ -98,10 +103,7 @@ TJogador * cria_jogadores(char *data) {
         // Alocamos dinamicamente uma string para cada linha.
         line = malloc(strlen(token) + 1);
         // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-        if (line == NULL) {
-            printf("Erro ao alocar memória.\n");
-            exit(MEM_ERR);
-        }
+        verifica_alocacao_dinamica(line, "Erro ao alocar memória.\n", MEM_ERR);
 
         // Copiamos a linha lida para a string.
         strcpy(line, token);
@@ -118,10 +120,7 @@ TJogador * cria_jogadores(char *data) {
                 jogadores[j].current_pok = 0;
                 jogadores[j].poks = (TPokemon *) malloc(sizeof(TPokemon) * jogadores[j].num_poks);
                 // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-                if (jogadores[j].poks == NULL) {
-                    printf("Erro ao alocar memória.\n");
-                    exit(MEM_ERR);
-                }
+                verifica_alocacao_dinamica(jogadores[j].poks, "Erro ao alocar memória.\n", MEM_ERR);
             }
             // Reiniciamos o contador `j`.
             j = 0;
@@ -137,7 +136,7 @@ TJogador * cria_jogadores(char *data) {
             // Colocamos os atributos do pokemon no array do jogador correspondente.
             jogadores[player].poks[j].nome = malloc(strlen(palavras[0]) + 1);
             jogadores[player].poks[j].tipo = malloc(strlen(palavras[4]) + 1);
-            jogadores[player].poks[j].tipo_int = classifica_pokemon(jogadores[player].poks[j].tipo);
+            jogadores[player].poks[j].tipo_int = classifica_pokemon(palavras[4]);
 
             strcpy(jogadores[player].poks[j].nome, palavras[0]);
             // Fazemos as convesões de string para float.
@@ -157,6 +156,29 @@ TJogador * cria_jogadores(char *data) {
         // Avançamos o contador `i`.
         i++;
     }
+
+    // Verificamos se os dados estão corretos.
+    if (jogadores[0].num_poks <= 0 || jogadores[1].num_poks <= 0) {
+        printf("Erro: número de pokémons inválido.\n");
+        exit(INVALID_POK_NUM_ERR);
+    }
+
+    // Verificamos se os jogadores têm pokémons suficientes.
+    if (jogadores[0].num_poks < jogadores[0].current_pok + 1 || jogadores[1].num_poks < jogadores[1].current_pok + 1) {
+        printf("Erro: número de pokémons insuficiente.\n");
+        exit(MORE_POKS_THAN_EXPECTED_ERR);
+    }
+
+    for (int i = 0; i < 2; i++) {
+        // Verificamos se os jogadores têm pokémons com atributos válidos.
+        for (int j = 0; j < jogadores[i].num_poks; j++) {
+            if (jogadores[i].poks[j].atk <= 0 || jogadores[i].poks[j].def <= 0 || jogadores[i].poks[j].hp <= 0) {
+                printf("Erro: atributos de pokémon inválidos.\n");
+                exit(INVALID_POK_ATTR_ERR);
+            }
+        }
+    }
+
     // Retornamos a lista de jogadores.
     return jogadores;
 }
@@ -209,6 +231,16 @@ int mais_fraco(int forca_atk, int forca_def) {
  * @param atacante Índice do jogador atacante.
  */
 void ataca(TJogador *jogadores, int atacante) {
+    // Verificamos se o array de jogadores é nulo ou vazio.
+    verifica_alocacao_dinamica(jogadores, "Erro: jogadores é um ponteiro nulo.\n", NULL_POINTER_ERR);
+
+    // Verificamos se o índice do atacante é válido.
+    if (atacante < 0 || atacante > 1) {
+        // Caso não seja, informamos o usuário e encerramos o programa.
+        printf("Erro: índice de jogador inválido.\n");
+        exit(ATACKER_INDX_ERR);
+    }
+
     // Definimos o índice do defensor.
     int defensor = atacante == 0 ? 1 : 0;
     float atk, def, hp;

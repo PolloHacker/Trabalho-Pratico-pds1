@@ -70,6 +70,45 @@ void cria_log() {
 
 
 /**
+ * @brief Verifica se um ponteiro de cadeia de caracteres é nulo ou vazio.
+ * 
+ * @param pointer O ponteiro de cadeia de caracteres a ser verificado.
+ * @param reason A mensagem de erro a ser exibida.
+ * @param err_code O código de erro a ser retornado.
+ * @param will_exit A flag que indica se o programa será encerrado.
+ */
+int verifica_ponteiro_char(const char * pointer, const char * reason, int err_code, int will_exit) {
+    // Testamos se a cadeia de caracteres é nula ou vazia.
+    if (pointer == NULL || strlen(pointer) == 0) {
+        // Caso seja, informamos ao usuário e encerramos o programa ou retornamos.
+        if (will_exit) {
+            printf(reason);
+            exit(err_code);
+        }
+        return err_code;
+    }
+    return 1;
+}
+
+
+/**
+ * @brief Verifica se um ponteiro recém alocado é nulo.
+ * 
+ * @param pointer O ponteiro a ser verificado.
+ * @param reason A mensagem de erro a ser exibida.
+ * @param err_code O código de erro a ser retornado.
+ */
+void verifica_alocacao_dinamica(void * pointer, const char * reason, int err_code) {
+    // Testamos se o ponteiro é nulo.
+    if (pointer == NULL) {
+        // Caso seja, informamos ao usuário e encerramos o programa.
+        printf(reason);
+        exit(err_code);
+    }
+}
+
+
+/**
  * @brief Verifica se um arquivo com o nome fornecido existe no sistema.
  *
  * @param nome_arq O nome do arquivo a ser verificado.
@@ -77,6 +116,9 @@ void cria_log() {
  * @return Retorna 1 se o arquivo existe, 0 caso contrário.
  */
 int verifica_arquivo(char *nome_arq) {
+    // Verifica se o nome do arquivo é nulo ou vazio
+    verifica_ponteiro_char(nome_arq, "Nome de arquivo inválido (vazio ou nulo).\n", INVALID_FILENAME_ERR, DO_EXIT);
+    
     // Abrimos o arquivo especificado no modo de leitura.
     FILE *arq = fopen(nome_arq, "r");
     // Se o arquivo não existir, informamos ao usuário e retornamos 0.
@@ -100,6 +142,12 @@ int verifica_arquivo(char *nome_arq) {
  * @return Retorna 1 se os dados foram gravados com sucesso, caso contrário retorna 0.
  */
 int grava_arquivo(char *nome_arq, char *data) {
+    // Verificamos se a cadeia de caracteres é nula ou vazia.
+    verifica_ponteiro_char(data, "Data inválida (vazia ou nula).\n", DONT_EXIT, DONT_EXIT);
+
+    // Verificamos se o nome do arquivo é nulo ou vazio.
+    verifica_ponteiro_char(nome_arq, "Nome de arquivo inválido (vazio ou nulo).\n", INVALID_FILENAME_ERR, DO_EXIT);
+
     // Inicializamos o modo de escrita do arquivo como `w`.
     char *modo = "w";
     // Caso o arquivo exista, o modo de escrita será alterado para `a`.
@@ -109,12 +157,18 @@ int grava_arquivo(char *nome_arq, char *data) {
     FILE *arq = fopen(nome_arq, modo);
 
     // Se o arquivo não existir, informamos ao usuário e retornamos 0.
-    if (arq == NULL) {
-        printf("Erro ao abrir arquivo %s.\n", nome_arq);
-        exit(FILE_OP_ERR);
+    verifica_alocacao_dinamica(arq, "Erro ao abrir arquivo.\n", FILE_OP_ERR);
+
+    /*
+    * Gravamos os dados espeficificados no arquivo.
+    * Caso ocorra um erro, a função fprintf retorna um valor menor do que 0.
+    */ 
+    if (fprintf(arq, "%s\n", data) < 0) {
+        printf("Erro ao gravar dados no arquivo %s.\n", nome_arq);
+        fclose(arq);
+        return (WRITE_ERR); 
     }
-    // Gravamos os dados espeficificados no arquivo.
-    fprintf(arq, "%s\n", data);
+
     // Para garantir o funcionamento correto do programa, fechamos o arquivo.
     fclose(arq);
 
@@ -154,10 +208,19 @@ char * le_arquivo(char *nome_arq) {
     // Abrimos o arquivo especificado no modo de leitura.
     FILE *arq = fopen(nome_arq, "r");
     // Se o arquivo não existir, informamos ao usuário e retornamos 0.
-    if (arq == NULL) {
-        printf("Erro ao abrir arquivo %s.\n", nome_arq);
-        exit(FILE_OP_ERR);
+    verifica_alocacao_dinamica(arq, "Erro ao abrir arquivo.\n", FILE_OP_ERR);
+
+    // Checamos se o arquivo está vazio.
+    fseek(arq, 0, SEEK_END);
+    long file_size = ftell(arq);
+    if (file_size == 0) {
+        // Informamos ao usuário e encerramos o programa.
+        printf("O arquivo está vazio.\n");
+        fclose(arq);
+        exit(EMPTY_FILE_ERR);
     }
+    // Reset the file position indicator to the beginning of the file
+    rewind(arq);
 
     // Lemos, da primeira linha do arquivo, o número de pokemons de cada jogador.
     fscanf(arq, " %d %d ", &pa, &pb);
@@ -168,10 +231,7 @@ char * le_arquivo(char *nome_arq) {
     data = realloc(data, str_size);
 
     // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-    if (data == NULL) {
-        printf("Erro ao alocar memória.\n");
-        exit(MEM_ERR);
-    }
+    verifica_alocacao_dinamica(data, "Erro ao alocar memória.\n", MEM_ERR);
 
     // Ao usarmos a função `snprintf`, podemos controlar a formatação da mesma, usando outros tipos de dados.
     snprintf(data, str_size, "%d %d\n", pa, pb);
@@ -186,19 +246,15 @@ char * le_arquivo(char *nome_arq) {
         // Alocamos dinamicamente memória para cada linha (pokemon).
         line = realloc(line, str_size);
         // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-        if (line == NULL) {
-            printf("Erro ao alocar memória.\n");
-            exit(MEM_ERR);
-        }
+        verifica_alocacao_dinamica(line, "Erro ao alocar memória.\n", MEM_ERR);
+
         // Colocamos os dados do pokemon na string usando uma formatação predefinida.
         snprintf(line, str_size, "%s %.1f %.1f %.1f %s\n", nome, atk, def, hp, tipo);
         // Realocamos a cadeia de caracteres para incluir memória para a nova linha que será adicionada.
         data = realloc(data, strlen(data) + strlen(line) + 1);
         // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-        if (data == NULL) {
-            printf("Erro ao alocar memória.\n");
-            exit(MEM_ERR);
-        }
+        verifica_alocacao_dinamica(data, "Erro ao alocar memória.\n", MEM_ERR);
+
         // Concatenamos a linha lida no final da string.
         strcat(data, line);
     }
@@ -221,13 +277,13 @@ char * le_arquivo(char *nome_arq) {
  *
  */
 char ** divide_linha(char * line) {
+    // Testamos se a cadeia de caracteres é nula ou vazia.
+    verifica_ponteiro_char(line, "Cadeia de caracteres inválida (vazia ou nula).\n", NULL_POINTER_ERR, DO_EXIT);
+
     // Alocamos dinamicamente um array de palavras para armazenar as palavras do arquivo.
     char ** palavras = (char **) malloc(sizeof(char*) * 100);
     // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-    if (palavras == NULL) {
-        printf("Erro ao alocar memória.\n");
-        exit(MEM_ERR);
-    }
+    verifica_alocacao_dinamica(palavras, "Erro ao alocar memória.\n", MEM_ERR);
     // Inicializamos um contador para cada palavra.
     int indice = 0;
     // Criamos um ponteiro para o primeiro e o último elementos de uma cadeia de caracteres.
@@ -237,18 +293,20 @@ char ** divide_linha(char * line) {
     // Enquanto o valor apontado for diferente de um caractere nulo, continuamos a dividir a cadeia de caracteres.
     while (*inicio != '\0') {
         // Enquanto o valor apontado for um caractere em branco, passamos para o proximo caractere.
-        while (*inicio == ' ') inicio++;
+        while (*inicio == ' ') {
+            inicio++;
+        }
         // Quando encontramos um caractere válido, apontamos `fim` para o caractere encontrado.
         fim = inicio;
         // Enquanto o valor apontado for válido e diferente de um caractere em branco, andamos para o proximo caractere.
-        while (*fim != ' ' && *fim != '\0') fim++;
+        while (*fim != ' ' && *fim != '\0') {
+            fim++;
+        }
         // Alocamos dinamicamente memória para a palavra encontrada.
         palavras[indice] = (char *) malloc(fim - inicio + 1);
         // Caso ocorra um erro ao alocar memória, informamos o usuário e encerramos o programa.
-        if (palavras[indice] == NULL) {
-            printf("Erro ao alocar memória.\n");
-            exit(MEM_ERR);
-        }
+        verifica_alocacao_dinamica(palavras[indice], "Erro ao alocar memória.\n", MEM_ERR);
+
         // Copiamos a palavra encontrada para o array de palavras.
         strncpy(palavras[indice], inicio, fim - inicio);
         // Colocamos o caractere indicativo no final da palavra.
